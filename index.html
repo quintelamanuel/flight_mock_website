@@ -7,7 +7,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Vite + React + TS</title>
   <meta name="viewport" content="initial-scale=1, width=device-width" />
-  <script type="module" crossorigin src="/flight_mock_website/assets/index-Cbg9UQ0T.js"></script>
+  <!-- GitHub Pages SPA redirect handler -->
+  <script>
+    (function() {
+      var redirect = sessionStorage.redirect;
+      delete sessionStorage.redirect;
+      if (redirect && redirect !== location.href) {
+        history.replaceState(null, null, redirect);
+      } else {
+        // Handle query parameter redirect from 404.html
+        var query = window.location.search;
+        if (query) {
+          var params = new URLSearchParams(query);
+          var path = params.get('p');
+          if (path) {
+            var newUrl = window.location.pathname.replace(/\/$/, '') + path;
+            history.replaceState(null, null, newUrl);
+          }
+        }
+      }
+    })();
+  </script>
+  <script type="module" crossorigin src="/flight_mock_website/assets/index-pLKfXaSw.js"></script>
   <link rel="stylesheet" crossorigin href="/flight_mock_website/assets/index-BLmdqgT7.css">
 </head>
 
