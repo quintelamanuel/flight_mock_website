@@ -1,0 +1,464 @@
+[
+    {
+        "__type": "TAirport",
+        "city": "London",
+        "name": "Heathrow Airport",
+        "codeId": "LHR"
+    },
+    {
+        "__type": "TAirport",
+        "city": "New York",
+        "name": "John F. Kennedy International Airport",
+        "codeId": "JFK"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Tokyo",
+        "name": "Haneda Airport",
+        "codeId": "HND"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Paris",
+        "name": "Charles de Gaulle Airport",
+        "codeId": "CDG"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Dubai",
+        "name": "Dubai International Airport",
+        "codeId": "DXB"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Los Angeles",
+        "name": "Los Angeles International Airport",
+        "codeId": "LAX"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Amsterdam",
+        "name": "Amsterdam Airport Schiphol",
+        "codeId": "AMS"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Hong Kong",
+        "name": "Hong Kong International Airport",
+        "codeId": "HKG"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Singapore",
+        "name": "Singapore Changi Airport",
+        "codeId": "SIN"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Frankfurt",
+        "name": "Frankfurt Airport",
+        "codeId": "FRA"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Seoul",
+        "name": "Incheon International Airport",
+        "codeId": "ICN"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Bangkok",
+        "name": "Suvarnabhumi Airport",
+        "codeId": "BKK"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Istanbul",
+        "name": "Istanbul Airport",
+        "codeId": "IST"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Beijing",
+        "name": "Beijing Capital International Airport",
+        "codeId": "PEK"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Madrid",
+        "name": "Adolfo Suárez Madrid–Barajas Airport",
+        "codeId": "MAD"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Munich",
+        "name": "Munich Airport",
+        "codeId": "MUC"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Sydney",
+        "name": "Sydney Airport",
+        "codeId": "SYD"
+    },
+    {
+        "__type": "TAirport",
+        "city": "San Francisco",
+        "name": "San Francisco International Airport",
+        "codeId": "SFO"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Toronto",
+        "name": "Toronto Pearson International Airport",
+        "codeId": "YYZ"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Rome",
+        "name": "Leonardo da Vinci International Airport",
+        "codeId": "FCO"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Barcelona",
+        "name": "Barcelona–El Prat Airport",
+        "codeId": "BCN"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Zurich",
+        "name": "Zurich Airport",
+        "codeId": "ZRH"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Vienna",
+        "name": "Vienna International Airport",
+        "codeId": "VIE"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Copenhagen",
+        "name": "Copenhagen Airport",
+        "codeId": "CPH"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Dublin",
+        "name": "Dublin Airport",
+        "codeId": "DUB"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Chicago",
+        "name": "O'Hare International Airport",
+        "codeId": "ORD"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Atlanta",
+        "name": "Hartsfield-Jackson Atlanta International Airport",
+        "codeId": "ATL"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Miami",
+        "name": "Miami International Airport",
+        "codeId": "MIA"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Dallas",
+        "name": "Dallas/Fort Worth International Airport",
+        "codeId": "DFW"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Denver",
+        "name": "Denver International Airport",
+        "codeId": "DEN"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Seattle",
+        "name": "Seattle-Tacoma International Airport",
+        "codeId": "SEA"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Las Vegas",
+        "name": "Harry Reid International Airport",
+        "codeId": "LAS"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Phoenix",
+        "name": "Phoenix Sky Harbor International Airport",
+        "codeId": "PHX"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Houston",
+        "name": "George Bush Intercontinental Airport",
+        "codeId": "IAH"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Orlando",
+        "name": "Orlando International Airport",
+        "codeId": "MCO"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Detroit",
+        "name": "Detroit Metropolitan Airport",
+        "codeId": "DTW"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Minneapolis",
+        "name": "Minneapolis-Saint Paul International Airport",
+        "codeId": "MSP"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Boston",
+        "name": "Boston Logan International Airport",
+        "codeId": "BOS"
+    },
+    {
+        "__type": "TAirport",
+        "city": "London",
+        "name": "London Gatwick Airport",
+        "codeId": "LGW"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Paris",
+        "name": "Paris Orly Airport",
+        "codeId": "ORY"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Milan",
+        "name": "Milan Malpensa Airport",
+        "codeId": "MXP"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Rome",
+        "name": "Rome Ciampino Airport",
+        "codeId": "CIA"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Brussels",
+        "name": "Brussels Airport",
+        "codeId": "BRU"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Stockholm",
+        "name": "Stockholm Arlanda Airport",
+        "codeId": "ARN"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Oslo",
+        "name": "Oslo Airport, Gardermoen",
+        "codeId": "OSL"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Helsinki",
+        "name": "Helsinki-Vantaa Airport",
+        "codeId": "HEL"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Moscow",
+        "name": "Sheremetyevo International Airport",
+        "codeId": "SVO"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Warsaw",
+        "name": "Warsaw Chopin Airport",
+        "codeId": "WAW"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Prague",
+        "name": "Václav Havel Airport Prague",
+        "codeId": "PRG"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Budapest",
+        "name": "Budapest Ferenc Liszt International Airport",
+        "codeId": "BUD"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Athens",
+        "name": "Athens International Airport",
+        "codeId": "ATH"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Dubai",
+        "name": "Al Maktoum International Airport",
+        "codeId": "DWC"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Abu Dhabi",
+        "name": "Abu Dhabi International Airport",
+        "codeId": "AUH"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Doha",
+        "name": "Hamad International Airport",
+        "codeId": "DOH"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Tel Aviv",
+        "name": "Ben Gurion Airport",
+        "codeId": "TLV"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Mumbai",
+        "name": "Chhatrapati Shivaji International Airport",
+        "codeId": "BOM"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Delhi",
+        "name": "Indira Gandhi International Airport",
+        "codeId": "DEL"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Bangkok",
+        "name": "Don Mueang International Airport",
+        "codeId": "DMK"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Kuala Lumpur",
+        "name": "Kuala Lumpur International Airport",
+        "codeId": "KUL"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Jakarta",
+        "name": "Soekarno-Hatta International Airport",
+        "codeId": "CGK"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Manila",
+        "name": "Ninoy Aquino International Airport",
+        "codeId": "MNL"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Tokyo",
+        "name": "Narita International Airport",
+        "codeId": "NRT"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Osaka",
+        "name": "Kansai International Airport",
+        "codeId": "KIX"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Shanghai",
+        "name": "Shanghai Pudong International Airport",
+        "codeId": "PVG"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Guangzhou",
+        "name": "Guangzhou Baiyun International Airport",
+        "codeId": "CAN"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Shenzhen",
+        "name": "Shenzhen Bao'an International Airport",
+        "codeId": "SZX"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Seoul",
+        "name": "Gimpo International Airport",
+        "codeId": "GMP"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Taipei",
+        "name": "Taiwan Taoyuan International Airport",
+        "codeId": "TPE"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Mexico City",
+        "name": "Benito Juárez International Airport",
+        "codeId": "MEX"
+    },
+    {
+        "__type": "TAirport",
+        "city": "São Paulo",
+        "name": "São Paulo/Guarulhos International Airport",
+        "codeId": "GRU"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Buenos Aires",
+        "name": "Ministro Pistarini International Airport",
+        "codeId": "EZE"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Santiago",
+        "name": "Arturo Merino Benítez International Airport",
+        "codeId": "SCL"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Lima",
+        "name": "Jorge Chávez International Airport",
+        "codeId": "LIM"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Bogotá",
+        "name": "El Dorado International Airport",
+        "codeId": "BOG"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Vancouver",
+        "name": "Vancouver International Airport",
+        "codeId": "YVR"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Montreal",
+        "name": "Montréal-Pierre Elliott Trudeau International Airport",
+        "codeId": "YUL"
+    },
+    {
+        "__type": "TAirport",
+        "city": "Calgary",
+        "name": "Calgary International Airport",
+        "codeId": "YYC"
+    }
+]

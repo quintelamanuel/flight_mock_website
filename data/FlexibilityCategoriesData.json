@@ -1,0 +1,95 @@
+[
+    {
+        "__type": "TFlexibilityCategoryData",
+        "flexibilityId": "flexibility_nonRefundable_1",
+        "flexibilityCategory": "nonRefundable",
+        "flexibilityTitle": "Non-Refundable",
+        "flexibilityPrice": "included",
+        "flexibilityDescription": "No changes allowed. This fare is final and cannot be modified or cancelled for a refund.",
+        "flexibilityOptions": [
+            {
+                "__type": "TFlexibilityOption",
+                "flexibilityOption": "Date/time changes",
+                "available": false
+            },
+            {
+                "__type": "TFlexibilityOption",
+                "flexibilityOption": "Name changes",
+                "available": false
+            },
+            {
+                "__type": "TFlexibilityOption",
+                "flexibilityOption": "Refund available",
+                "available": false
+            },
+            {
+                "__type": "TFlexibilityOption",
+                "flexibilityOption": "Flight credit if cancelled",
+                "available": false
+            }
+        ],
+        "selected": false
+    },
+    {
+        "__type": "TFlexibilityCategoryData",
+        "flexibilityId": "flexibility_flexible_2",
+        "flexibilityCategory": "flexible",
+        "flexibilityTitle": "Flexible",
+        "flexibilityPrice": 35,
+        "flexibilityDescription": "Change your flight date or time for a small fee. Ideal for travelers who may need some flexibility.",
+        "flexibilityOptions": [
+            {
+                "__type": "TFlexibilityOption",
+                "flexibilityOption": "Date/time changes (25€ fee)",
+                "available": true
+            },
+            {
+                "__type": "TFlexibilityOption",
+                "flexibilityOption": "Name changes",
+                "available": false
+            },
+            {
+                "__type": "TFlexibilityOption",
+                "flexibilityOption": "Refund available",
+                "available": false
+            },
+            {
+                "__type": "TFlexibilityOption",
+                "flexibilityOption": "Flight credit if cancelled",
+                "available": true
+            }
+        ],
+        "selected": false
+    },
+    {
+        "__type": "TFlexibilityCategoryData",
+        "flexibilityId": "flexibility_fullyFlexible_3",
+        "flexibilityCategory": "fullyFlexible",
+        "flexibilityTitle": "Fully Flexible",
+        "flexibilityPrice": 75,
+        "flexibilityDescription": "Complete peace of mind. Free unlimited changes and full refund if you cancel your trip.",
+        "flexibilityOptions": [
+            {
+                "__type": "TFlexibilityOption",
+                "flexibilityOption": "Unlimited free date/time changes",
+                "available": true
+            },
+            {
+                "__type": "TFlexibilityOption",
+                "flexibilityOption": "Name changes (one allowed)",
+                "available": true
+            },
+            {
+                "__type": "TFlexibilityOption",
+                "flexibilityOption": "Full refund available",
+                "available": true
+            },
+            {
+                "__type": "TFlexibilityOption",
+                "flexibilityOption": "Flight credit if cancelled",
+                "available": true
+            }
+        ],
+        "selected": false
+    }
+]

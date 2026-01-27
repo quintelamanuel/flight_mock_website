@@ -1,0 +1,1095 @@
+{
+  "__type": "TFlightData",
+  "flightResultsRows": [
+    {
+      "__type": "TFlightRow",
+      "id": "1",
+      "flightInfo": {
+        "__type": "TFlightInfoData",
+        "flightInfoCategory": "normal",
+        "departureDate": "2025-03-10T10:00:00",
+        "departureAirport": "John F. Kennedy International Airport",
+        "departureCode": "JFK",
+        "departureCity": "New York",
+        "arrivalDate": "2025-03-10T18:30:00",
+        "arrivalAirport": "Heathrow Airport",
+        "arrivalCode": "LHR",
+        "arrivalCity": "London",
+        "duration": "8h 30m"
+      },
+      "ticketCategories": [
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economy_1",
+          "ticketCategory": "economy",
+          "ticketTitle": "Economy",
+          "ticketPrice": 320,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "WiFi",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Extra Legroom",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Meal",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Meal",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economyPlus_1",
+          "ticketCategory": "economyPlus",
+          "ticketTitle": "Economy Plus",
+          "ticketPrice": 420,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "WiFi",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Extra Legroom",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Meal",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Meal",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_business_1",
+          "ticketCategory": "business",
+          "ticketTitle": "Business",
+          "ticketPrice": 900,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "WiFi",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Extra Legroom",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Meal",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Meal",
+              "available": true
+            }
+          ],
+          "selected": false
+        }
+      ]
+    },
+    {
+      "__type": "TFlightRow",
+      "id": "2",
+      "flightInfo": {
+        "__type": "TFlightInfoData",
+        "flightInfoCategory": "normal",
+        "departureDate": "2025-03-10T15:00:00",
+        "departureAirport": "Los Angeles International Airport",
+        "departureCode": "LAX",
+        "departureCity": "Los Angeles",
+        "arrivalDate": "2025-03-11T09:45:00",
+        "arrivalAirport": "Charles de Gaulle Airport",
+        "arrivalCode": "CDG",
+        "arrivalCity": "Paris",
+        "duration": "12h 45m"
+      },
+      "ticketCategories": [
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economy_2",
+          "ticketCategory": "economy",
+          "ticketTitle": "Economy",
+          "ticketPrice": 400,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "WiFi",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Meal",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economyPlus_2",
+          "ticketCategory": "economyPlus",
+          "ticketTitle": "Economy Plus",
+          "ticketPrice": 500,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "WiFi",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Meal",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_business_2",
+          "ticketCategory": "business",
+          "ticketTitle": "Business",
+          "ticketPrice": 1200,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "WiFi",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Meal",
+              "available": true
+            }
+          ],
+          "selected": false
+        }
+      ]
+    },
+    {
+      "__type": "TFlightRow",
+      "id": "3",
+      "flightInfo": {
+        "__type": "TFlightInfoData",
+        "flightInfoCategory": "normal",
+        "departureDate": "2025-03-10T07:45:00",
+        "departureAirport": "San Francisco International Airport",
+        "departureCode": "SFO",
+        "departureCity": "San Francisco",
+        "arrivalDate": "2025-03-11T04:00:00",
+        "arrivalAirport": "Narita International Airport",
+        "arrivalCode": "NRT",
+        "arrivalCity": "Tokyo",
+        "duration": "11h 15m"
+      },
+      "ticketCategories": [
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economy_3",
+          "ticketCategory": "economy",
+          "ticketTitle": "Economy",
+          "ticketPrice": 580,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Dining",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Amenity Kit",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economyPlus_3",
+          "ticketCategory": "economyPlus",
+          "ticketTitle": "Economy Plus",
+          "ticketPrice": 780,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Dining",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Amenity Kit",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_business_3",
+          "ticketCategory": "business",
+          "ticketTitle": "Business",
+          "ticketPrice": 1850,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Dining",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Amenity Kit",
+              "available": true
+            }
+          ],
+          "selected": false
+        }
+      ]
+    },
+    {
+      "__type": "TFlightRow",
+      "id": "4",
+      "flightInfo": {
+        "__type": "TFlightInfoData",
+        "flightInfoCategory": "normal",
+        "departureDate": "2025-03-10T21:20:00",
+        "departureAirport": "O'Hare International Airport",
+        "departureCode": "ORD",
+        "departureCity": "Chicago",
+        "arrivalDate": "2025-03-10T23:30:00",
+        "arrivalAirport": "Los Angeles International Airport",
+        "arrivalCode": "LAX",
+        "arrivalCity": "Los Angeles",
+        "duration": "4h 10m"
+      },
+      "ticketCategories": [
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economy_4",
+          "ticketCategory": "economy",
+          "ticketTitle": "Economy",
+          "ticketPrice": 180,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Meal",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Free Drinks",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economyPlus_4",
+          "ticketCategory": "economyPlus",
+          "ticketTitle": "Economy Plus",
+          "ticketPrice": 250,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Meal",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Free Drinks",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_business_4",
+          "ticketCategory": "business",
+          "ticketTitle": "Business",
+          "ticketPrice": 450,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Meal",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Free Drinks",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": true
+            }
+          ],
+          "selected": false
+        }
+      ]
+    },
+    {
+      "__type": "TFlightRow",
+      "id": "5",
+      "flightInfo": {
+        "__type": "TFlightInfoData",
+        "flightInfoCategory": "normal",
+        "departureDate": "2025-03-10T06:15:00",
+        "departureAirport": "Dubai International Airport",
+        "departureCode": "DXB",
+        "departureCity": "Dubai",
+        "arrivalDate": "2025-03-10T10:35:00",
+        "arrivalAirport": "Heathrow Airport",
+        "arrivalCode": "LHR",
+        "arrivalCity": "London",
+        "duration": "7h 20m"
+      },
+      "ticketCategories": [
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economy_5",
+          "ticketCategory": "economy",
+          "ticketTitle": "Economy",
+          "ticketPrice": 410,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Chauffeur Service",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Fine Dining",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economyPlus_5",
+          "ticketCategory": "economyPlus",
+          "ticketTitle": "Economy Plus",
+          "ticketPrice": 590,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Chauffeur Service",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Fine Dining",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_business_5",
+          "ticketCategory": "business",
+          "ticketTitle": "Business",
+          "ticketPrice": 1400,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Chauffeur Service",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Fine Dining",
+              "available": true
+            }
+          ],
+          "selected": false
+        }
+      ]
+    },
+    {
+      "__type": "TFlightRow",
+      "id": "6",
+      "flightInfo": {
+        "__type": "TFlightInfoData",
+        "flightInfoCategory": "normal",
+        "departureDate": "2025-03-10T14:30:00",
+        "departureAirport": "Singapore Changi Airport",
+        "departureCode": "SIN",
+        "departureCity": "Singapore",
+        "arrivalDate": "2025-03-10T19:45:00",
+        "arrivalAirport": "Hong Kong International Airport",
+        "arrivalCode": "HKG",
+        "arrivalCity": "Hong Kong",
+        "duration": "5h 15m"
+      },
+      "ticketCategories": [
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economy_6",
+          "ticketCategory": "economy",
+          "ticketTitle": "Economy",
+          "ticketPrice": 230,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lie-flat Seat",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Champagne Service",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Chauffeur Service",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economyPlus_6",
+          "ticketCategory": "economyPlus",
+          "ticketTitle": "Economy Plus",
+          "ticketPrice": 320,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lie-flat Seat",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Champagne Service",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Chauffeur Service",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_business_6",
+          "ticketCategory": "business",
+          "ticketTitle": "Business",
+          "ticketPrice": 780,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lie-flat Seat",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Champagne Service",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Chauffeur Service",
+              "available": true
+            }
+          ],
+          "selected": false
+        }
+      ]
+    },
+    {
+      "__type": "TFlightRow",
+      "id": "7",
+      "flightInfo": {
+        "__type": "TFlightInfoData",
+        "flightInfoCategory": "normal",
+        "departureDate": "2025-03-10T11:40:00",
+        "departureAirport": "Adolfo Suárez Madrid–Barajas Airport",
+        "departureCode": "MAD",
+        "departureCity": "Madrid",
+        "arrivalDate": "2025-03-10T14:10:00",
+        "arrivalAirport": "London Gatwick Airport",
+        "arrivalCode": "LGW",
+        "arrivalCity": "London",
+        "duration": "2h 30m"
+      },
+      "ticketCategories": [
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economy_7",
+          "ticketCategory": "economy",
+          "ticketTitle": "Economy",
+          "ticketPrice": 120,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Seat",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Meal with Wine",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economyPlus_7",
+          "ticketCategory": "economyPlus",
+          "ticketTitle": "Economy Plus",
+          "ticketPrice": 195,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Seat",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Meal with Wine",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_business_7",
+          "ticketCategory": "business",
+          "ticketTitle": "Business",
+          "ticketPrice": 340,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Seat",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Meal with Wine",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": true
+            }
+          ],
+          "selected": false
+        }
+      ]
+    },
+    {
+      "__type": "TFlightRow",
+      "id": "8",
+      "flightInfo": {
+        "__type": "TFlightInfoData",
+        "flightInfoCategory": "normal",
+        "departureDate": "2025-03-10T21:00:00",
+        "departureAirport": "John F. Kennedy International Airport",
+        "departureCode": "JFK",
+        "departureCity": "New York",
+        "arrivalDate": "2025-03-11T08:20:00",
+        "arrivalAirport": "Leonardo da Vinci International Airport",
+        "arrivalCode": "FCO",
+        "arrivalCity": "Rome",
+        "duration": "6h 20m"
+      },
+      "ticketCategories": [
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economy_8",
+          "ticketCategory": "economy",
+          "ticketTitle": "Economy",
+          "ticketPrice": 350,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Dining",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Amenity Kit",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economyPlus_8",
+          "ticketCategory": "economyPlus",
+          "ticketTitle": "Economy Plus",
+          "ticketPrice": 470,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Dining",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Amenity Kit",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_business_8",
+          "ticketCategory": "business",
+          "ticketTitle": "Business",
+          "ticketPrice": 1100,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Dining",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Amenity Kit",
+              "available": true
+            }
+          ],
+          "selected": false
+        }
+      ]
+    },
+    {
+      "__type": "TFlightRow",
+      "id": "9",
+      "flightInfo": {
+        "__type": "TFlightInfoData",
+        "flightInfoCategory": "normal",
+        "departureDate": "2025-03-10T16:45:00",
+        "departureAirport": "Mexico City International Airport",
+        "departureCode": "MEX",
+        "departureCity": "Mexico City",
+        "arrivalDate": "2025-03-10T21:35:00",
+        "arrivalAirport": "Toronto Pearson International Airport",
+        "arrivalCode": "YYZ",
+        "arrivalCity": "Toronto",
+        "duration": "4h 50m"
+      },
+      "ticketCategories": [
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economy_9",
+          "ticketCategory": "economy",
+          "ticketTitle": "Economy",
+          "ticketPrice": 210,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Seat",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Fine Dining",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economyPlus_9",
+          "ticketCategory": "economyPlus",
+          "ticketTitle": "Economy Plus",
+          "ticketPrice": 310,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Seat",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Fine Dining",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_business_9",
+          "ticketCategory": "business",
+          "ticketTitle": "Business",
+          "ticketPrice": 580,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Seat",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Fine Dining",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": true
+            }
+          ],
+          "selected": false
+        }
+      ]
+    },
+    {
+      "__type": "TFlightRow",
+      "id": "10",
+      "flightInfo": {
+        "__type": "TFlightInfoData",
+        "flightInfoCategory": "normal",
+        "departureDate": "2025-03-10T08:30:00",
+        "departureAirport": "Sydney Airport",
+        "departureCode": "SYD",
+        "departureCity": "Sydney",
+        "arrivalDate": "2025-03-10T14:45:00",
+        "arrivalAirport": "Los Angeles International Airport",
+        "arrivalCode": "LAX",
+        "arrivalCity": "Los Angeles",
+        "duration": "14h 15m"
+      },
+      "ticketCategories": [
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economy_10",
+          "ticketCategory": "economy",
+          "ticketTitle": "Economy",
+          "ticketPrice": 680,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Chef-designed Menu",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Amenity Kit",
+              "available": false
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economyPlus_10",
+          "ticketCategory": "economyPlus",
+          "ticketTitle": "Economy Plus",
+          "ticketPrice": 920,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Chef-designed Menu",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Amenity Kit",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_business_10",
+          "ticketCategory": "business",
+          "ticketTitle": "Business",
+          "ticketPrice": 2200,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Lounge Access",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Flat Bed",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Chef-designed Menu",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Premium Amenity Kit",
+              "available": true
+            }
+          ],
+          "selected": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+    "TTicketCategoryData": {
+        "economy": "secondary",
+        "economyPlus": "high",
+        "business": "tertiary"
+    },
+    "TPlaneSeatData": {
+        "economy": "secondary",
+        "economyPlus": "high",
+        "business": "tertiary"
+    },
+    "TMealCategoryData": {
+        "standardMeal": "secondary",
+        "premiumMeal": "high",
+        "specialMeal": "tertiary"
+    },
+    "TBaggageCategoryData": {
+        "handBag": "tertiary",
+        "cabinBag": "secondary",
+        "checkedBag": "high",
+        "specialBag": "tertiary"
+    },
+    "TFlexibilityCategoryData": {
+        "nonRefundable": "secondary",
+        "flexible": "high",
+        "fullyFlexible": "tertiary"
+    },
+    "TMonthTaggedDates": {
+        "bestPrice": "secondary",
+        "mostFlexible": "high",
+        "fastest": "tertiary",
+        "normal": "basic"
+    },
+    "TFlightInfoData": {
+        "normal": "basic"
+    },
+    "TInterfaceElements": {
+        "normal": "basic"
+    }
+}

@@ -1,0 +1,29 @@
+[
+    {
+        "__type": "TMealCategoryData",
+        "mealId": "meal_standard_1",
+        "mealCategory": "standardMeal",
+        "mealTitle": "Standard Meal",
+        "mealPrice": "included",
+        "mealDescription": "Basic meal included with your ticket. Includes a sandwich, snack and a non-alcoholic beverage.",
+        "selected": false
+    },
+    {
+        "__type": "TMealCategoryData",
+        "mealId": "meal_standard_2",
+        "mealCategory": "premiumMeal",
+        "mealTitle": "Premium Meal",
+        "mealPrice": 15,
+        "mealDescription": "Hot meal with meat or vegetarian option. Includes dessert and a selection of beverages including wine or beer.",
+        "selected": false
+    },
+    {
+        "__type": "TMealCategoryData",
+        "mealId": "meal_standard_3",
+        "mealCategory": "specialMeal",
+        "mealTitle": "Special Dietary",
+        "mealPrice": 20,
+        "mealDescription": "Meals for specific dietary requirements including vegan, gluten-free, kosher, halal, and more. Please specify in notes.",
+        "selected": false
+    }
+]

@@ -1,0 +1,16 @@
+{
+    "mainColor": "#FF9C0C",
+    "textDark": "#333333",
+    "textLight": "#ffffff",
+    "atenuatedColor": "#999999",
+    "darkColor": "#333333",
+    "lightColor": "#ffffff",
+    "actionMain": "#1976d2",
+    "actionMainComplementary": "#1976d2",
+    "actionSecondary": "#FFAB0C",
+    "actionTertiary": "#FF8B0C",
+    "backgroundMain": "#ACD6FF",
+    "backgroundMainComplementary": "#ACD6FF",
+    "backgroundSecondary": "#FFE0A6",
+    "backgroundTertiary": "#FFD4A6"
+}

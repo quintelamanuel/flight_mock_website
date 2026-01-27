@@ -1,0 +1,79 @@
+{
+  "lateralSliding": true,
+  "pageInstructions": {
+    "search_flight": "Busca un vuelo de Madrid a Barcelona en febrero. Elige fechas marcadas como flexibles.",
+    "departure_flight_selection": "Elige cualquier vuelo que llegue a Barcelona antes de las 16:00 y tenga wifi.",
+    "return_flight_selection": "Elige cualquier vuelo que salga de Madrid antes de las 12:00 y tenga asiento de tipo business.",
+    "baggage_options": "Elige cualquier franquicia de equipaje que permita tanto maletas de mano como facturadas.",
+    "meal_options": "Elige cualquier menú que incluya dietas especiales.",
+    "flexibility_options": "Elige cualquier opción que te permita cambios sin penalización.",
+    "seat_selection": "Elige cualquier asiento de tipo business.",
+    "continue": "Completado correctamente. Continúa al siguiente paso."
+  },
+  "perPagePalettes": {
+    "enabled": true,
+    "palettes": {
+      "search_flight": "blueAnalogous",
+      "departure_flight_selection": "blueComplementary",
+      "return_flight_selection": "blueAnalogous",
+      "baggage_options": "blueBlackControl",
+      "meal_options": "blueAnalogous",
+      "flexibility_options": "blueComplementary",
+      "seat_selection": "blueAnalogous"
+    }
+  },
+  "experimentMode": true,
+  "intendedSelections": {
+    "search_flight": {
+      "departureAirport": [
+        "MAD"
+      ],
+      "arrivalAirport": [
+        "BCN"
+      ],
+      "departureDate": [
+        "2026-02-10",
+        "2026-02-11",
+        "2026-02-12"
+      ],
+      "returnDate": [
+        "2026-02-15",
+        "2026-02-16",
+        "2026-02-17"
+      ]
+    },
+    "departure_flight_selection": [
+      {
+        "flightId": "1",
+        "ticketCategories": [
+          "economy",
+          "economyPlus"
+        ]
+      },
+      {
+        "flightId": "2",
+        "ticketCategories": [
+          "business"
+        ]
+      }
+    ],
+    "return_flight_selection": [],
+    "baggage_options": [
+      "baggage_cabinBag_2",
+      "baggage_checkedBag_3"
+    ],
+    "meal_options": [
+      "meal_standard_1",
+      "meal_standard_2"
+    ],
+    "flexibility_options": [
+      "flexibility_fullyFlexible_3"
+    ],
+    "seat_selection": [
+      "5B",
+      "5C",
+      "6B",
+      "6C"
+    ]
+  }
+}

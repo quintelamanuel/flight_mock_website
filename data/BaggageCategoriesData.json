@@ -1,0 +1,122 @@
+[
+    {
+        "__type": "TBaggageCategoryData",
+        "baggageId": "baggage_handBag_1",
+        "baggageCategory": "handBag",
+        "baggageTitle": "Handbag Only",
+        "baggagePrice": "included",
+        "baggageOptions": [
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 personal item (40x30x20cm)",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "Fits under seat",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "Cabin bag",
+                "available": false
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "Checked baggage",
+                "available": false
+            }
+        ],
+        "selected": false
+    },
+    {
+        "__type": "TBaggageCategoryData",
+        "baggageId": "baggage_cabinBag_2",
+        "baggageCategory": "cabinBag",
+        "baggageTitle": "Cabin bag",
+        "baggagePrice": 25,
+        "baggageOptions": [
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 personal item (40x30x20cm)",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 cabin bag (55x40x20cm)",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "Priority boarding",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "Checked baggage",
+                "available": false
+            }
+        ],
+        "selected": false
+    },
+    {
+        "__type": "TBaggageCategoryData",
+        "baggageId": "baggage_checkedBag_3",
+        "baggageCategory": "checkedBag",
+        "baggageTitle": "Checked Bag",
+        "baggagePrice": 45,
+        "baggageOptions": [
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 personal item (40x30x20cm)",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 cabin bag (55x40x20cm)",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 checked bag (20kg)",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "Extra weight allowance",
+                "available": false
+            }
+        ],
+        "selected": false
+    },
+    {
+        "__type": "TBaggageCategoryData",
+        "baggageId": "baggage_specialBag_4",
+        "baggageCategory": "specialBag",
+        "baggageTitle": "Special Bag",
+        "baggagePrice": 60,
+        "baggageOptions": [
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 personal item (40x30x20cm)",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 cabin bag (55x40x20cm)",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 checked bag (32kg)",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "Extra weight allowance",
+                "available": true
+            }
+        ],
+        "selected": false
+    }
+]
