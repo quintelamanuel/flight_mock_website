@@ -11,7 +11,7 @@
     "continue": "Completado correctamente. Continúa al siguiente paso."
   },
   "perPagePalettes": {
-    "enabled": false,
+    "enabled": true,
     "palettes": {
       "search_flight": "blueAnalogous",
       "departure_flight_selection": "blueComplementary",
