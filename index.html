@@ -34,6 +34,22 @@
 
 <body>
   <div id="root"></div>
+  <script src="/flight_mock_website/jquery-4.0.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+  <script src="/flight_mock_website/scriptTest.js"></script>
+  <script>
+    window.addEventListener('load', function () {
+      if (typeof startExperiment === 'function') {
+        startExperiment();
+      }
+      if (typeof registerUserData === 'function') {
+        registerUserData();
+      }
+      if (typeof initTracking === 'function') {
+        initTracking(0);
+      }
+    });
+  </script>
 </body>
 
 </html>
