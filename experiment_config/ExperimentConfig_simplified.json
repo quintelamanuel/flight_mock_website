@@ -1,0 +1,44 @@
+{
+    "lateralSliding": true,
+    "pageInstructions": {
+        "departure_flight_selection": "Select a flight that leaves Madrid after 09:00 and does not have extra legroom.",
+        "return_flight_selection": "Select a flight that arrives in Barcelona before 10:00 and offers priority boarding.",
+        "departure_baggage_options": "Choose a baggage option without checked baggage.",
+        "return_baggage_options": "Choose a baggage option that allows your to check a 30kg bag.",
+        "continue": "Completed successfully. Continue to the next step."
+    },
+    "perPagePalettes": {
+        "enabled": true,
+        "palettes": {
+            "departure_flight_selection": "blueAnalogous",
+            "return_flight_selection": "blueAnalogous",
+            "departure_baggage_options": "blueComplementary",
+            "return_baggage_options": "blueComplementary"
+        }
+    },
+    "experimentMode": true,
+    "intendedSelections": {
+        "departure_flight_selection": [
+            {
+                "flightId": "2",
+                "ticketCategories": [
+                    "economy"
+                ]
+            }
+        ],
+        "return_flight_selection": [
+            {
+                "flightId": "1",
+                "ticketCategories": [
+                    "business"
+                ]
+            }
+        ],
+        "departure_baggage_options": [
+            "baggage_cabinBag_2"
+        ],
+        "return_baggage_options": [
+            "baggage_specialBag_4"
+        ]
+    }
+}

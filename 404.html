@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>Redirecting...</title>
-  <script>
-    // GitHub Pages SPA redirect script
-    // This script takes the current URL and redirects to index.html
-    // while preserving the path as a query parameter that index.html will handle
-    const pathSegmentsToKeep = 1; // Keep the repo name segment: /flight_mock_website
-    const l = window.location;
-    const pathAfterBase = l.pathname
-      .split('/')
-      .slice(pathSegmentsToKeep + 1)
-      .join('/');
-    const search = l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '';
-    const hash = l.hash;
-    
-    // Redirect to the base with the path encoded in the query string
-    l.replace(
-      l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-      l.pathname.split('/').slice(0, pathSegmentsToKeep + 1).join('/') + '/' +
-      '?p=/' + pathAfterBase + search + hash
-    );
-  </script>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script>
+        // GitHub Pages SPA redirect script
+        // This script takes the current URL and redirects to index.html
+        // while preserving the path as a query parameter that index.html will handle
+        const pathSegmentsToKeep = 1; // Keep the repo name segment: /flight_mock_website
+        const l = window.location;
+        const pathAfterBase = l.pathname
+            .split('/')
+            .slice(pathSegmentsToKeep + 1)
+            .join('/');
+        const search = l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '';
+        const hash = l.hash;
+
+        // Redirect to the base with the path encoded in the query string
+        l.replace(
+            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+            l.pathname.split('/').slice(0, pathSegmentsToKeep + 1).join('/') + '/' +
+            '?p=/' + pathAfterBase + search + hash
+        );
+    </script>
 </head>
+
 <body>
-  <p>Redirecting...</p>
+    <p>Redirecting...</p>
 </body>
+
 </html>

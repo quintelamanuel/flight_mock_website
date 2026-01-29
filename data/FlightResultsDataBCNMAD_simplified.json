@@ -1,0 +1,223 @@
+{
+  "__type": "TFlightData",
+  "flightResultsRows": [
+    {
+      "__type": "TFlightRow",
+      "id": "1",
+      "flightInfo": {
+        "__type": "TFlightInfoData",
+        "flightInfoCategory": "normal",
+        "departureDate": "2025-03-10T07:30:00",
+        "departureAirport": "Barcelona\u2013El Prat Airport",
+        "departureCode": "BCN",
+        "departureCity": "Barcelona",
+        "arrivalDate": "2025-03-10T08:45:00",
+        "arrivalAirport": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
+        "arrivalCode": "MAD",
+        "arrivalCity": "Madrid",
+        "duration": "1h 15m"
+      },
+      "ticketCategories": [
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economy_1",
+          "ticketCategory": "economy",
+          "ticketTitle": "Economy",
+          "ticketPrice": 90,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Business Seat",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Wifi",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Extra Legroom",
+              "available": false
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economyPlus_1",
+          "ticketCategory": "economyPlus",
+          "ticketTitle": "Economy Plus",
+          "ticketPrice": 136,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Business Seat",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Wifi",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Extra Legroom",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_business_1",
+          "ticketCategory": "business",
+          "ticketTitle": "Business",
+          "ticketPrice": 224,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Business Seat",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Wifi",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Extra Legroom",
+              "available": true
+            }
+          ],
+          "selected": false
+        }
+      ]
+    },
+    {
+      "__type": "TFlightRow",
+      "id": "2",
+      "flightInfo": {
+        "__type": "TFlightInfoData",
+        "flightInfoCategory": "normal",
+        "departureDate": "2025-03-10T10:20:00",
+        "departureAirport": "Barcelona\u2013El Prat Airport",
+        "departureCode": "BCN",
+        "departureCity": "Barcelona",
+        "arrivalDate": "2025-03-10T11:35:00",
+        "arrivalAirport": "Adolfo Su\u00e1rez Madrid\u2013Barajas Airport",
+        "arrivalCode": "MAD",
+        "arrivalCity": "Madrid",
+        "duration": "1h 15m"
+      },
+      "ticketCategories": [
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economy_2",
+          "ticketCategory": "economy",
+          "ticketTitle": "Economy",
+          "ticketPrice": 95,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Business Seat",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Wifi",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Extra Legroom",
+              "available": false
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_economyPlus_2",
+          "ticketCategory": "economyPlus",
+          "ticketTitle": "Economy Plus",
+          "ticketPrice": 141,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Business Seat",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Wifi",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": false
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Extra Legroom",
+              "available": true
+            }
+          ],
+          "selected": false
+        },
+        {
+          "__type": "TTicketCategoryData",
+          "ticketId": "ticket_business_2",
+          "ticketCategory": "business",
+          "ticketTitle": "Business",
+          "ticketPrice": 234,
+          "ticketServices": [
+            {
+              "__type": "TTicketService",
+              "ticketService": "Business Seat",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Wifi",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Priority Boarding",
+              "available": true
+            },
+            {
+              "__type": "TTicketService",
+              "ticketService": "Extra Legroom",
+              "available": true
+            }
+          ],
+          "selected": false
+        }
+      ]
+    }
+  ]
+}

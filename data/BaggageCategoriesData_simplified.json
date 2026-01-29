@@ -1,0 +1,77 @@
+[
+    {
+        "__type": "TBaggageCategoryData",
+        "baggageId": "baggage_cabinBag_2",
+        "baggageCategory": "cabinBag",
+        "baggageTitle": "Cabin bag",
+        "baggagePrice": 25,
+        "baggageOptions": [
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 personal item (40x30x20cm)",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 cabin bag (55x40x20cm)",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "Checked baggage",
+                "available": false
+            }
+        ],
+        "selected": false
+    },
+    {
+        "__type": "TBaggageCategoryData",
+        "baggageId": "baggage_checkedBag_3",
+        "baggageCategory": "checkedBag",
+        "baggageTitle": "Checked Bag",
+        "baggagePrice": 45,
+        "baggageOptions": [
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 personal item (40x30x20cm)",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 cabin bag (55x40x20cm)",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 checked bag (20kg)",
+                "available": true
+            }
+        ],
+        "selected": false
+    },
+    {
+        "__type": "TBaggageCategoryData",
+        "baggageId": "baggage_specialBag_4",
+        "baggageCategory": "specialBag",
+        "baggageTitle": "Special Bag",
+        "baggagePrice": 60,
+        "baggageOptions": [
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 personal item (40x30x20cm)",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 cabin bag (55x40x20cm)",
+                "available": true
+            },
+            {
+                "__type": "TBaggageOptions",
+                "baggageOption": "1 checked bag (32kg)",
+                "available": true
+            }
+        ],
+        "selected": false
+    }
+]
