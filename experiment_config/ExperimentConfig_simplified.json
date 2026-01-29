@@ -1,6 +1,7 @@
 {
     "lateralSliding": true,
     "pageInstructions": {
+        "user_id": "Introduce the user id",
         "departure_flight_selection": "Select a flight that leaves Madrid after 09:00 and does not have extra legroom.",
         "return_flight_selection": "Select a flight that arrives in Barcelona before 10:00 and offers priority boarding.",
         "departure_baggage_options": "Choose a baggage option without checked baggage.",
@@ -10,6 +11,7 @@
     "perPagePalettes": {
         "enabled": true,
         "palettes": {
+            "user_id": "blueAnalogous",
             "departure_flight_selection": "blueAnalogous",
             "return_flight_selection": "blueAnalogous",
             "departure_baggage_options": "blueComplementary",
