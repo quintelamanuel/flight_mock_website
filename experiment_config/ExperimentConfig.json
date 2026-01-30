@@ -1,5 +1,6 @@
 {
   "lateralSliding": true,
+  "userIdPrefix": "colors_blue_orange_",
   "pageInstructions": {
     "search_flight": "Busca un vuelo de Madrid a Barcelona en febrero. Elige fechas marcadas como flexibles.",
     "departure_flight_selection": "Elige cualquier vuelo que llegue a Barcelona antes de las 16:00 y tenga wifi.",
