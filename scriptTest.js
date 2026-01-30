@@ -49,7 +49,7 @@
 		var elements = [];
 		var emittingData = true;
 		
-	var idExperiment = 37;
+	var idExperiment = 38;
 	var urlBase='https://interactionlab.hci.uniovi.es:8443'
 		
 		var url = urlBase + '/TrackerServer/restws/track';
@@ -765,3 +765,4 @@
 			}
 		}
 	
+function registerage(value) {postNumberDD(197, value);}function registergender(value) {postStringDD(198, value);}function registeruser_id(value) {postStringDD(199, value);}
