@@ -1,5 +1,3 @@
-
-		
 		const VERSION = 3;
 		
 		const EVENT_ON_MOUSE_MOVE = 0;
