@@ -68,8 +68,12 @@
 		var urlExperimentStatus = urlBase + '/TrackerServer/restws/experiment/status/' + idExperiment;
 	
 		function consoleLogData(functionObject, dataName, data){
-			console.log("iLab log Function: "+ functionObject.name);
-			console.log(dataName+": "+data);
+			var funcName = functionObject.name;
+			var prefix = "[iLab][" + funcName + "]";
+			// Use console.warn to ensure visibility (less likely to be filtered)
+			console.warn(prefix, dataName + ":", data);
+			// Also log to console.log for redundancy
+			console.log(prefix, dataName + ":", data);
 		}
 	
 		function startExperiment()
