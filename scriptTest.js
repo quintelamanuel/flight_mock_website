@@ -70,10 +70,11 @@
 		function consoleLogData(functionObject, dataName, data){
 			var funcName = functionObject.name;
 			var prefix = "[iLab][" + funcName + "]";
+			var string = prefix + " " + dataName + ": " + data;
 			// Use console.warn to ensure visibility (less likely to be filtered)
-			console.warn(prefix, dataName + ":", data);
+			console.warn(string);
 			// Also log to console.log for redundancy
-			console.log(prefix, dataName + ":", data);
+			console.log(string);
 		}
 	
 		function startExperiment()
