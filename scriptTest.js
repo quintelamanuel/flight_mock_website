@@ -1,3 +1,5 @@
+const { DATE_VALIDATION_PROP_NAMES } = require("@mui/x-date-pickers/validation/extractValidationProps");
+const { data } = require("react-router-dom");
 
 
 	
@@ -59,6 +61,10 @@
 		var urlDemographicData = urlBase + '/TrackerServer/restws/registerDemographicData';
 		var urlExperimentStatus = urlBase + '/TrackerServer/restws/experiment/status/' + idExperiment;
 	
+		function consoleLogData(functionObject, dataName, data){
+			console.log("iLab log Function: "+ functionObject.name);
+			console.log(dataName+": "+data);
+		}
 	
 		function startExperiment()
 		{
@@ -135,6 +141,7 @@
 				
 
 		function createUser() {
+			consoleLogData(createUser, "user before creation", localStorage.getItem("user"));
 			if (localStorage.getItem("user") === null || localStorage.getItem("user") === undefined) {
 				let lettrs = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 				localStorage.setItem("user",
@@ -179,7 +186,8 @@
 			    "scrPixelDepth": screen.pixelDepth,
 			    "idExperiment" : idExperiment,
 			    "sessionId" : user
-			};		
+			};
+			consoleLogData(registerUserData, "registerUserData parametros", parametros);
 			if(true){
 				$.ajax({
 					data:  JSON.stringify(parametros),  
@@ -385,6 +393,7 @@
 		}	
 		
 		function trackClick(){
+			consoleLogData(trackClick, "Tracking click event", "");
 			trackEvent(EVENT_ON_CLICK);
 		}	
 		
@@ -726,6 +735,7 @@
 				"idExperiment" : idExperiment,
 			    "sessionId" : user
 			};
+			consoleLogData(postNumberDD, "postNumberDD parametros", parametros);
 			postAJAXDemographicData(parametros);
 		}
 		
@@ -737,7 +747,7 @@
 				"idExperiment" : idExperiment,
 			    "sessionId" : user
 			};
-			postAJAXDemographicData(parametros);
+			consoleLogData(postStringDD, "postStringDD parametros", parametros);
 		}
 		
 		function postDateDD(id, value) {
@@ -748,10 +758,12 @@
 				"idExperiment" : idExperiment,
 			    "sessionId" : user
 			};
+			consoleLogData(postDateDD, "postDateDD parametros", parametros);
 			postAJAXDemographicData(parametros);
 		}
 		
 		function postAJAXDemographicData(parametros){
+			consoleLogData(postAJAXDemographicData, "postAJAXDemographicData parametros", parametros);
 			if(emittingData){
 				$.ajax({
 					data:  JSON.stringify(parametros),  
