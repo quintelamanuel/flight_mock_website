@@ -26,7 +26,17 @@
 		const COMPONENT_RADIO_BUTTON = 4;
 		const COMPONENT_CHECK_BOX = 5;
 		
-		const user = createUser();
+		// Global user variable - initialized lazily via getUser() or startExperiment()
+		var user = null;
+		
+		// Lazily get or create the user
+		function getUser() {
+			if (user === null) {
+				user = createUser();
+				console.log("[getUser] User created lazily: " + user);
+			}
+			return user;
+		}
 	
 			
 		
@@ -64,8 +74,8 @@
 	
 		function startExperiment()
 		{
-			//We create a new user
-			var user = createUser();
+			//We create a new user - assigns to global variable
+			user = createUser();
 			consoleLogData(startExperiment, "created user", user);
 			console.log("Creating user session "+user);
 		}
@@ -91,7 +101,7 @@
 				"sceneId": sceneId,
 				"canvas": canvas.toDataURL("image/png"),
 				"timeStamp": Date.now(),
-				"sessionId": user
+				"sessionId": getUser()
 			};
 			
 			if (emittingData) {
@@ -184,7 +194,7 @@
 			    "scrColorDepth": screen.colorDepth,
 			    "scrPixelDepth": screen.pixelDepth,
 			    "idExperiment" : idExperiment,
-			    "sessionId" : user
+			    "sessionId" : getUser()
 			};
 			consoleLogData(registerUserData, "registerUserData parametros", parametros);
 			if(true){
@@ -520,7 +530,7 @@
 				"idExperiment" : idExperiment,
 				"typeId" : typeId,
 				"componentAssociated": componentAssociated,
-			    "sessionId" : user
+			    "sessionId" : getUser()
 			};
 			
 			if(emittingData){
@@ -543,7 +553,7 @@
 				"timezone": (new Date()).getTimezoneOffset() / 60 * (-1),
 				"list": chunk,
 				"idExperiment": idExperiment,
-				"sessionId": user
+				"sessionId": getUser()
 			};
 		
 			if (emittingData) {
@@ -732,7 +742,7 @@
 		    	"id": id,
 				"numberValue": value,
 				"idExperiment" : idExperiment,
-			    "sessionId" : user
+			    "sessionId" : getUser()
 			};
 			consoleLogData(postNumberDD, "postNumberDD parametros.numberValue", parametros.numberValue);
 			consoleLogData(postNumberDD, "postNumberDD parametros.sessionId (user)", parametros.sessionId);
@@ -745,7 +755,7 @@
 		    	"id": id,
 				"stringValue": value,
 				"idExperiment" : idExperiment,
-			    "sessionId" : user
+			    "sessionId" : getUser()
 			};
 			consoleLogData(postStringDD, "postStringDD parametros.stringValue", parametros.stringValue);
 			consoleLogData(postStringDD, "postStringDD parametros.sessionId (user)", parametros.sessionId);
@@ -758,7 +768,7 @@
 		    	"id": id,
 				"dateValue": value,
 				"idExperiment" : idExperiment,
-			    "sessionId" : user
+			    "sessionId" : getUser()
 			};
 			consoleLogData(postDateDD, "postDateDD parametros.dateValue", parametros.dateValue);
 			consoleLogData(postDateDD, "postDateDD parametros.sessionId (user)", parametros.sessionId);
