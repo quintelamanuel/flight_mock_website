@@ -796,4 +796,12 @@
 			}
 		}
 	
-function registerage(value) {postNumberDD(197, value);}function registergender(value) {postStringDD(198, value);}function registeruser_id(value) {postStringDD(199, value);}
+function registerage(value) {
+	postNumberDD(197, value);
+}
+function registergender(value) {
+	postStringDD(198, value);
+}
+function registeruser_id(value) {
+	postStringDD(199, value);
+}
