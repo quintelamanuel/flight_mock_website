@@ -1,3 +1,5 @@
+
+		
 		const VERSION = 3;
 		
 		const EVENT_ON_MOUSE_MOVE = 0;
@@ -64,6 +66,7 @@
 		{
 			//We create a new user
 			var user = createUser();
+			consoleLogData(startExperiment, "created user", user);
 			console.log("Creating user session "+user);
 		}
 		
@@ -145,7 +148,9 @@
 					(Math.floor(Math.random() * (999999999999 - 100000000000)) + 100000000000).toString() +
 					Date.now().toString()+getDate()
 				);
+				consoleLogData(createUser, "user not found, creating userid", localStorage.getItem("user"));
 			}
+			consoleLogData(createUser, "user AFTER creation", localStorage.getItem("user"));
 			return localStorage.getItem("user");
 		}
 	
@@ -729,7 +734,8 @@
 				"idExperiment" : idExperiment,
 			    "sessionId" : user
 			};
-			consoleLogData(postNumberDD, "postNumberDD parametros", parametros);
+			consoleLogData(postNumberDD, "postNumberDD parametros.numberValue", parametros.numberValue);
+			consoleLogData(postNumberDD, "postNumberDD parametros.sessionId (user)", parametros.sessionId);
 			postAJAXDemographicData(parametros);
 		}
 		
@@ -741,7 +747,9 @@
 				"idExperiment" : idExperiment,
 			    "sessionId" : user
 			};
-			consoleLogData(postStringDD, "postStringDD parametros", parametros);
+			consoleLogData(postStringDD, "postStringDD parametros.stringValue", parametros.stringValue);
+			consoleLogData(postStringDD, "postStringDD parametros.sessionId (user)", parametros.sessionId);
+			postAJAXDemographicData(parametros);
 		}
 		
 		function postDateDD(id, value) {
@@ -752,12 +760,14 @@
 				"idExperiment" : idExperiment,
 			    "sessionId" : user
 			};
-			consoleLogData(postDateDD, "postDateDD parametros", parametros);
+			consoleLogData(postDateDD, "postDateDD parametros.dateValue", parametros.dateValue);
+			consoleLogData(postDateDD, "postDateDD parametros.sessionId (user)", parametros.sessionId);
 			postAJAXDemographicData(parametros);
 		}
 		
 		function postAJAXDemographicData(parametros){
-			consoleLogData(postAJAXDemographicData, "postAJAXDemographicData parametros", parametros);
+			consoleLogData(postAJAXDemographicData, "postDateDD parametros.dateValue", parametros.dateValue);
+			consoleLogData(postAJAXDemographicData, "postDateDD parametros.sessionId (user)", parametros.sessionId);
 			if(emittingData){
 				$.ajax({
 					data:  JSON.stringify(parametros),  
