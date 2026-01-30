@@ -5,6 +5,7 @@
         "user_id": "Introduce the user id",
         "departure_flight_selection": "Select a flight that leaves Madrid after 09:00 and does not have extra legroom.",
         "return_flight_selection": "Select a flight that arrives in Barcelona before 10:00 and offers priority boarding.",
+        "flight_selection_feedback": "Please answer the following questions before continuing.",
         "departure_baggage_options": "Choose a baggage option without checked baggage.",
         "return_baggage_options": "Choose a baggage option that allows your to check a 30kg bag.",
         "continue": "Completed successfully. Continue to the next step."
@@ -15,6 +16,7 @@
             "user_id": "blueAnalogous",
             "departure_flight_selection": "blueAnalogous",
             "return_flight_selection": "blueAnalogous",
+            "flight_selection_feedback": "blueAnalogous",
             "departure_baggage_options": "blueComplementary",
             "return_baggage_options": "blueComplementary"
         }
