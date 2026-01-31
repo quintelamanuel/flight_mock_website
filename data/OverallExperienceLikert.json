@@ -1,0 +1,47 @@
+{
+    "questionnaireId": "overall_experience_satisfaction",
+    "title": "Overall Experience Feedback",
+    "description": "Please rate your overall experience with the booking process.",
+    "questions": [
+        {
+            "questionId": "q1_ease_of_use",
+            "questionText": "How easy was it to complete the entire booking process?",
+            "lowerNumber": 1,
+            "upperNumber": 7,
+            "lowerLabel": "Very Difficult",
+            "upperLabel": "Very Easy"
+        },
+        {
+            "questionId": "q2_information_clarity",
+            "questionText": "How clear and understandable was the information presented throughout?",
+            "lowerNumber": 1,
+            "upperNumber": 7,
+            "lowerLabel": "Very Unclear",
+            "upperLabel": "Very Clear"
+        },
+        {
+            "questionId": "q3_options_variety",
+            "questionText": "How satisfied are you with the overall variety of options available?",
+            "lowerNumber": 1,
+            "upperNumber": 7,
+            "lowerLabel": "Very Dissatisfied",
+            "upperLabel": "Very Satisfied"
+        },
+        {
+            "questionId": "q4_price_transparency",
+            "questionText": "How transparent were the prices throughout the booking process?",
+            "lowerNumber": 1,
+            "upperNumber": 7,
+            "lowerLabel": "Not Transparent",
+            "upperLabel": "Very Transparent"
+        },
+        {
+            "questionId": "q5_overall_experience",
+            "questionText": "Overall, how would you rate your complete booking experience?",
+            "lowerNumber": 1,
+            "upperNumber": 7,
+            "lowerLabel": "Very Poor",
+            "upperLabel": "Excellent"
+        }
+    ]
+}

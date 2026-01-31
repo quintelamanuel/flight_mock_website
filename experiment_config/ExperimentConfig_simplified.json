@@ -8,6 +8,8 @@
         "flight_selection_feedback": "Please answer the following questions before continuing.",
         "departure_baggage_options": "Choose a baggage option without checked baggage.",
         "return_baggage_options": "Choose a baggage option that allows your to check a 30kg bag.",
+        "baggage_selection_feedback": "Please answer the following questions about the baggage selection.",
+        "overall_experience_feedback": "Please answer the following questions about your overall experience.",
         "continue": "Completed successfully. Continue to the next step."
     },
     "perPagePalettes": {
@@ -18,7 +20,9 @@
             "return_flight_selection": "blueAnalogous",
             "flight_selection_feedback": "blueAnalogous",
             "departure_baggage_options": "blueComplementary",
-            "return_baggage_options": "blueComplementary"
+            "return_baggage_options": "blueComplementary",
+            "baggage_selection_feedback": "blueComplementary",
+            "overall_experience_feedback": "blueAnalogous"
         }
     },
     "experimentMode": true,

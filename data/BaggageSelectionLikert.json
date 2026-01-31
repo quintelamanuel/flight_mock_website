@@ -1,0 +1,47 @@
+{
+    "questionnaireId": "baggage_selection_satisfaction",
+    "title": "Baggage Selection Feedback",
+    "description": "Please rate your experience with the baggage selection process.",
+    "questions": [
+        {
+            "questionId": "q1_ease_of_use",
+            "questionText": "How easy was it to find the baggage options you were looking for?",
+            "lowerNumber": 1,
+            "upperNumber": 7,
+            "lowerLabel": "Very Difficult",
+            "upperLabel": "Very Easy"
+        },
+        {
+            "questionId": "q2_information_clarity",
+            "questionText": "How clear and understandable was the baggage information presented?",
+            "lowerNumber": 1,
+            "upperNumber": 7,
+            "lowerLabel": "Very Unclear",
+            "upperLabel": "Very Clear"
+        },
+        {
+            "questionId": "q3_options_variety",
+            "questionText": "How satisfied are you with the variety of baggage options available?",
+            "lowerNumber": 1,
+            "upperNumber": 7,
+            "lowerLabel": "Very Dissatisfied",
+            "upperLabel": "Very Satisfied"
+        },
+        {
+            "questionId": "q4_price_transparency",
+            "questionText": "How transparent were the prices and baggage categories?",
+            "lowerNumber": 1,
+            "upperNumber": 7,
+            "lowerLabel": "Not Transparent",
+            "upperLabel": "Very Transparent"
+        },
+        {
+            "questionId": "q5_overall_experience",
+            "questionText": "Overall, how would you rate your baggage selection experience?",
+            "lowerNumber": 1,
+            "upperNumber": 7,
+            "lowerLabel": "Very Poor",
+            "upperLabel": "Excellent"
+        }
+    ]
+}
