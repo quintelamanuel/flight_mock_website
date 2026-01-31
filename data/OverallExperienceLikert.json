@@ -1,47 +1,55 @@
 {
     "questionnaireId": "overall_experience_satisfaction",
-    "title": "Overall Experience Feedback",
-    "description": "Please rate your overall experience with the booking process.",
+    "title": "Cuestionario sobre la experiencia general",
+    "description": "Evalúa tu experiencia tras finalizar.",
     "questions": [
         {
-            "questionId": "q1_ease_of_use",
-            "questionText": "How easy was it to complete the entire booking process?",
+            "questionId": "q1_information_retrieval_speed",
+            "questionText": "Encontré rápidamente la información relevante.",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Very Difficult",
-            "upperLabel": "Very Easy"
+            "lowerLabel": "Muy lentamente",
+            "upperLabel": "Muy rápidamente"
         },
         {
-            "questionId": "q2_information_clarity",
-            "questionText": "How clear and understandable was the information presented throughout?",
+            "questionId": "q2_element_distraction",
+            "questionText": " Los elementos destacados distraen cuando no son relevantes.",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Very Unclear",
-            "upperLabel": "Very Clear"
+            "lowerLabel": "Distraen poco",
+            "upperLabel": "Distraen mucho"
         },
         {
-            "questionId": "q3_options_variety",
-            "questionText": "How satisfied are you with the overall variety of options available?",
+            "questionId": "q3_visual_appeal",
+            "questionText": "El aspecto de la página me resulta agradable y atractivo.",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Very Dissatisfied",
-            "upperLabel": "Very Satisfied"
+            "lowerLabel": "Poco agradable",
+            "upperLabel": "Muy agradable"
         },
         {
-            "questionId": "q4_price_transparency",
-            "questionText": "How transparent were the prices throughout the booking process?",
+            "questionId": "q4_professional_appearance",
+            "questionText": "El aspecto de la página transmite profesionalidad.",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Not Transparent",
-            "upperLabel": "Very Transparent"
+            "lowerLabel": "Poco profesional",
+            "upperLabel": "Muy profesional"
         },
         {
-            "questionId": "q5_overall_experience",
-            "questionText": "Overall, how would you rate your complete booking experience?",
+            "questionId": "q5_service_quality",
+            "questionText": "El aspecto de la página transmite confianza en la calidad de los servicios ofrecidos",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Very Poor",
-            "upperLabel": "Excellent"
+            "lowerLabel": "Poca calidad",
+            "upperLabel": "Mucha calidad"
+        },
+        {
+            "questionId": "q6_price_expectation",
+            "questionText": "El aspecto de la página me hace esperar precios elevados.",
+            "lowerNumber": 1,
+            "upperNumber": 7,
+            "lowerLabel": "Muy bajos",
+            "upperLabel": "Muy elevados"
         }
     ]
 }
