@@ -1,55 +1,115 @@
 {
     "questionnaireId": "overall_experience_satisfaction",
     "title": "Cuestionario sobre la experiencia general",
-    "description": "Evalúa tu experiencia tras finalizar.",
+    "description": "Evalúa tu experiencia en cada tipo de página.",
     "questions": [
         {
             "questionId": "q1_information_retrieval_speed",
             "questionText": "Encontré rápidamente la información relevante.",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Muy lentamente",
-            "upperLabel": "Muy rápidamente"
+            "lowerLabel": "Muy en desacuerdo",
+            "upperLabel": "Muy de acuerdo",
+            "scales": [
+                {
+                    "scaleId": "flight",
+                    "scaleLabel": "Selección de vuelos"
+                },
+                {
+                    "scaleId": "baggage",
+                    "scaleLabel": "Selección de equipaje"
+                }
+            ]
         },
         {
             "questionId": "q2_element_distraction",
-            "questionText": " Los elementos destacados distraen cuando no son relevantes.",
+            "questionText": "Los elementos destacados distraen cuando no son relevantes.",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Distraen poco",
-            "upperLabel": "Distraen mucho"
+            "lowerLabel": "Muy en desacuerdo",
+            "upperLabel": "Muy de acuerdo",
+            "scales": [
+                {
+                    "scaleId": "flight",
+                    "scaleLabel": "Selección de vuelos"
+                },
+                {
+                    "scaleId": "baggage",
+                    "scaleLabel": "Selección de equipaje"
+                }
+            ]
         },
         {
             "questionId": "q3_visual_appeal",
             "questionText": "El aspecto de la página me resulta agradable y atractivo.",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Poco agradable",
-            "upperLabel": "Muy agradable"
+            "lowerLabel": "Muy en desacuerdo",
+            "upperLabel": "Muy de acuerdo",
+            "scales": [
+                {
+                    "scaleId": "flight",
+                    "scaleLabel": "Selección de vuelos"
+                },
+                {
+                    "scaleId": "baggage",
+                    "scaleLabel": "Selección de equipaje"
+                }
+            ]
         },
         {
             "questionId": "q4_professional_appearance",
             "questionText": "El aspecto de la página transmite profesionalidad.",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Poco profesional",
-            "upperLabel": "Muy profesional"
+            "lowerLabel": "Muy en desacuerdo",
+            "upperLabel": "Muy de acuerdo",
+            "scales": [
+                {
+                    "scaleId": "flight",
+                    "scaleLabel": "Selección de vuelos"
+                },
+                {
+                    "scaleId": "baggage",
+                    "scaleLabel": "Selección de equipaje"
+                }
+            ]
         },
         {
             "questionId": "q5_service_quality",
-            "questionText": "El aspecto de la página transmite confianza en la calidad de los servicios ofrecidos",
+            "questionText": "El aspecto de la página transmite confianza en la calidad de los servicios ofrecidos.",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Poca calidad",
-            "upperLabel": "Mucha calidad"
+            "lowerLabel": "Muy en desacuerdo",
+            "upperLabel": "Muy de acuerdo",
+            "scales": [
+                {
+                    "scaleId": "flight",
+                    "scaleLabel": "Selección de vuelos"
+                },
+                {
+                    "scaleId": "baggage",
+                    "scaleLabel": "Selección de equipaje"
+                }
+            ]
         },
         {
             "questionId": "q6_price_expectation",
             "questionText": "El aspecto de la página me hace esperar precios elevados.",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Muy bajos",
-            "upperLabel": "Muy elevados"
+            "lowerLabel": "Muy en desacuerdo",
+            "upperLabel": "Muy de acuerdo",
+            "scales": [
+                {
+                    "scaleId": "flight",
+                    "scaleLabel": "Selección de vuelos"
+                },
+                {
+                    "scaleId": "baggage",
+                    "scaleLabel": "Selección de equipaje"
+                }
+            ]
         }
     ]
 }
