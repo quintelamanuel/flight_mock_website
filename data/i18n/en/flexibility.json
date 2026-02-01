@@ -1,0 +1,23 @@
+{
+  "pageTitle": "Flexibility Options",
+  "category": {
+    "nonRefundable": "Non-Refundable",
+    "flexible": "Flexible",
+    "fullyFlexible": "Fully Flexible"
+  },
+  "description": {
+    "nonRefundable": "No changes allowed. This fare is final and cannot be modified or cancelled for a refund.",
+    "flexible": "Change your flight date or time for a small fee. Ideal for travelers who may need some flexibility.",
+    "fullyFlexible": "Complete peace of mind. Free unlimited changes and full refund if you cancel your trip."
+  },
+  "option": {
+    "dateTimeChanges": "Date/time changes",
+    "dateTimeChangesFee": "Date/time changes (25€ fee)",
+    "unlimitedDateTimeChanges": "Unlimited free date/time changes",
+    "nameChanges": "Name changes",
+    "nameChangesOneAllowed": "Name changes (one allowed)",
+    "refundAvailable": "Refund available",
+    "fullRefundAvailable": "Full refund available",
+    "flightCreditIfCancelled": "Flight credit if cancelled"
+  }
+}

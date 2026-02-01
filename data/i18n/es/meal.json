@@ -1,0 +1,13 @@
+{
+  "pageTitle": "Opciones de Menú",
+  "category": {
+    "standardMeal": "Menú Estándar",
+    "premiumMeal": "Menú Premium",
+    "specialMeal": "Dieta Especial"
+  },
+  "description": {
+    "standardMeal": "Comida básica incluida con tu billete. Incluye un sándwich, aperitivo y una bebida sin alcohol.",
+    "premiumMeal": "Comida caliente con opción de carne o vegetariana. Incluye postre y una selección de bebidas incluyendo vino o cerveza.",
+    "specialMeal": "Comidas para requisitos dietéticos específicos incluyendo vegano, sin gluten, kosher, halal y más. Por favor especifica en las notas."
+  }
+}

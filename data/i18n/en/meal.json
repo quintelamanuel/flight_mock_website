@@ -1,0 +1,13 @@
+{
+  "pageTitle": "Meal Options",
+  "category": {
+    "standardMeal": "Standard Meal",
+    "premiumMeal": "Premium Meal",
+    "specialMeal": "Special Dietary"
+  },
+  "description": {
+    "standardMeal": "Basic meal included with your ticket. Includes a sandwich, snack and a non-alcoholic beverage.",
+    "premiumMeal": "Hot meal with meat or vegetarian option. Includes dessert and a selection of beverages including wine or beer.",
+    "specialMeal": "Meals for specific dietary requirements including vegan, gluten-free, kosher, halal, and more. Please specify in notes."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "pageTitle": "Baggage Options",
+  "category": {
+    "handBag": "Handbag Only",
+    "cabinBag": "Cabin bag",
+    "checkedBag": "Checked Bag",
+    "specialBag": "Special Bag"
+  },
+  "option": {
+    "personalItem": "1 personal item (40x30x20cm)",
+    "fitsUnderSeat": "Fits under seat",
+    "cabinBag": "Cabin bag",
+    "cabinBagSize": "1 cabin bag (55x40x20cm)",
+    "checkedBaggage": "Checked baggage",
+    "priorityBoarding": "Priority boarding",
+    "checkedBag20kg": "1 checked bag (20kg)",
+    "checkedBag32kg": "1 checked bag (32kg)",
+    "extraWeightAllowance": "Extra weight allowance",
+    "sportEquipment": "Sports equipment allowed",
+    "musicalInstruments": "Musical instruments",
+    "extraCheckedBag": "1 extra checked bag"
+  },
+  "labels": {
+    "price": "Price",
+    "includedOptions": "Included options"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "pageTitle": {
+    "departure": "Departure Flight Selection",
+    "return": "Return Flight Selection"
+  },
+  "headers": {
+    "flightDetails": "Flight Details",
+    "economy": "Economy",
+    "economyPlus": "Economy Plus",
+    "business": "Business"
+  },
+  "ticket": {
+    "economy": "Economy",
+    "economyPlus": "Economy Plus",
+    "business": "Business"
+  },
+  "service": {
+    "wifi": "WiFi",
+    "extraLegroom": "Extra Legroom",
+    "premiumMeal": "Premium Meal",
+    "meal": "Meal",
+    "priorityBoarding": "Priority Boarding",
+    "businessSeat": "Business Seat"
+  },
+  "search": {
+    "departureAirport": "Departure Airport",
+    "destinationAirport": "Destination Airport",
+    "departureDate": "Departure Date",
+    "returnDate": "Return Date"
+  },
+  "tags": {
+    "bestPrice": "price",
+    "fastest": "fast",
+    "mostFlexible": "flex"
+  },
+  "labels": {
+    "includedServices": "Included services"
+  }
+}

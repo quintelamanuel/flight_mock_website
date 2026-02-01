@@ -1,0 +1,39 @@
+{
+  "pageTitle": {
+    "departure": "Selección de Vuelo de Ida",
+    "return": "Selección de Vuelo de Vuelta"
+  },
+  "headers": {
+    "flightDetails": "Detalles del Vuelo",
+    "economy": "Turista",
+    "economyPlus": "Turista Plus",
+    "business": "Business"
+  },
+  "ticket": {
+    "economy": "Turista",
+    "economyPlus": "Turista Plus",
+    "business": "Business"
+  },
+  "service": {
+    "wifi": "WiFi",
+    "extraLegroom": "Espacio extra para piernas",
+    "premiumMeal": "Menú Premium",
+    "meal": "Comida",
+    "priorityBoarding": "Embarque prioritario",
+    "businessSeat": "Asiento Business"
+  },
+  "search": {
+    "departureAirport": "Aeropuerto de Salida",
+    "destinationAirport": "Aeropuerto de Destino",
+    "departureDate": "Fecha de Ida",
+    "returnDate": "Fecha de Vuelta"
+  },
+  "tags": {
+    "bestPrice": "precio",
+    "fastest": "rápido",
+    "mostFlexible": "flex"
+  },
+  "labels": {
+    "includedServices": "Servicios incluidos"
+  }
+}

@@ -1,113 +1,113 @@
 {
     "questionnaireId": "overall_experience_satisfaction",
-    "title": "Cuestionario sobre la experiencia general",
-    "description": "Evalúa tu experiencia en cada tipo de página.",
+    "titleKey": "likert.overall.title",
+    "descriptionKey": "likert.overall.description",
     "questions": [
         {
             "questionId": "q1_information_retrieval_speed",
-            "questionText": "Encontré rápidamente la información relevante.",
+            "questionTextKey": "likert.questions.informationRetrievalSpeed",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Muy en desacuerdo",
-            "upperLabel": "Muy de acuerdo",
+            "lowerLabelKey": "likert.labels.stronglyDisagree",
+            "upperLabelKey": "likert.labels.stronglyAgree",
             "scales": [
                 {
                     "scaleId": "flight",
-                    "scaleLabel": "Selección de vuelos"
+                    "scaleLabelKey": "likert.scales.flightSelection"
                 },
                 {
                     "scaleId": "baggage",
-                    "scaleLabel": "Selección de equipaje"
+                    "scaleLabelKey": "likert.scales.baggageSelection"
                 }
             ]
         },
         {
             "questionId": "q2_element_distraction",
-            "questionText": "Los elementos destacados distraen cuando no son relevantes.",
+            "questionTextKey": "likert.questions.elementDistraction",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Muy en desacuerdo",
-            "upperLabel": "Muy de acuerdo",
+            "lowerLabelKey": "likert.labels.stronglyDisagree",
+            "upperLabelKey": "likert.labels.stronglyAgree",
             "scales": [
                 {
                     "scaleId": "flight",
-                    "scaleLabel": "Selección de vuelos"
+                    "scaleLabelKey": "likert.scales.flightSelection"
                 },
                 {
                     "scaleId": "baggage",
-                    "scaleLabel": "Selección de equipaje"
+                    "scaleLabelKey": "likert.scales.baggageSelection"
                 }
             ]
         },
         {
             "questionId": "q3_visual_appeal",
-            "questionText": "El aspecto de la página me resulta agradable y atractivo.",
+            "questionTextKey": "likert.questions.visualAppeal",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Muy en desacuerdo",
-            "upperLabel": "Muy de acuerdo",
+            "lowerLabelKey": "likert.labels.stronglyDisagree",
+            "upperLabelKey": "likert.labels.stronglyAgree",
             "scales": [
                 {
                     "scaleId": "flight",
-                    "scaleLabel": "Selección de vuelos"
+                    "scaleLabelKey": "likert.scales.flightSelection"
                 },
                 {
                     "scaleId": "baggage",
-                    "scaleLabel": "Selección de equipaje"
+                    "scaleLabelKey": "likert.scales.baggageSelection"
                 }
             ]
         },
         {
             "questionId": "q4_professional_appearance",
-            "questionText": "El aspecto de la página transmite profesionalidad.",
+            "questionTextKey": "likert.questions.professionalAppearance",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Muy en desacuerdo",
-            "upperLabel": "Muy de acuerdo",
+            "lowerLabelKey": "likert.labels.stronglyDisagree",
+            "upperLabelKey": "likert.labels.stronglyAgree",
             "scales": [
                 {
                     "scaleId": "flight",
-                    "scaleLabel": "Selección de vuelos"
+                    "scaleLabelKey": "likert.scales.flightSelection"
                 },
                 {
                     "scaleId": "baggage",
-                    "scaleLabel": "Selección de equipaje"
+                    "scaleLabelKey": "likert.scales.baggageSelection"
                 }
             ]
         },
         {
             "questionId": "q5_service_quality",
-            "questionText": "El aspecto de la página transmite confianza en la calidad de los servicios ofrecidos.",
+            "questionTextKey": "likert.questions.serviceQualityConfidence",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Muy en desacuerdo",
-            "upperLabel": "Muy de acuerdo",
+            "lowerLabelKey": "likert.labels.stronglyDisagree",
+            "upperLabelKey": "likert.labels.stronglyAgree",
             "scales": [
                 {
                     "scaleId": "flight",
-                    "scaleLabel": "Selección de vuelos"
+                    "scaleLabelKey": "likert.scales.flightSelection"
                 },
                 {
                     "scaleId": "baggage",
-                    "scaleLabel": "Selección de equipaje"
+                    "scaleLabelKey": "likert.scales.baggageSelection"
                 }
             ]
         },
         {
             "questionId": "q6_price_expectation",
-            "questionText": "El aspecto de la página me hace esperar precios elevados.",
+            "questionTextKey": "likert.questions.priceExpectation",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Muy en desacuerdo",
-            "upperLabel": "Muy de acuerdo",
+            "lowerLabelKey": "likert.labels.stronglyDisagree",
+            "upperLabelKey": "likert.labels.stronglyAgree",
             "scales": [
                 {
                     "scaleId": "flight",
-                    "scaleLabel": "Selección de vuelos"
+                    "scaleLabelKey": "likert.scales.flightSelection"
                 },
                 {
                     "scaleId": "baggage",
-                    "scaleLabel": "Selección de equipaje"
+                    "scaleLabelKey": "likert.scales.baggageSelection"
                 }
             ]
         }

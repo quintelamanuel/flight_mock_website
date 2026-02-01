@@ -1,0 +1,18 @@
+{
+  "instructions": {
+    "user_id": "Introduce the user id",
+    "search_flight": "Search for a flight from Madrid to Barcelona in February. Choose dates marked as flexible.",
+    "departure_flight_selection": "Select a flight that leaves Madrid after 09:00 and does not have extra legroom.",
+    "return_flight_selection": "Select a flight that arrives in Barcelona before 10:00 and offers priority boarding.",
+    "flight_selection_feedback": "Please answer the following questions before continuing.",
+    "baggage_options": "Choose any baggage allowance that permits both cabin and checked bags.",
+    "departure_baggage_options": "Choose a baggage option without checked baggage.",
+    "return_baggage_options": "Choose a baggage option that allows your to check a 30kg bag.",
+    "baggage_selection_feedback": "Please answer the following questions about the baggage selection.",
+    "meal_options": "Choose any menu that includes special diets.",
+    "flexibility_options": "Choose any option that allows changes without penalty.",
+    "seat_selection": "Choose any business class seat.",
+    "overall_experience_feedback": "Please answer the following questions about your overall experience.",
+    "continue": "Completed successfully. Continue to the next step."
+  }
+}

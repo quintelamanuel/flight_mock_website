@@ -1,0 +1,40 @@
+{
+  "flightSelection": {
+    "title": "Flight Selection Questionnaire",
+    "description": "Evaluate your experience after selecting the flights."
+  },
+  "baggageSelection": {
+    "title": "Baggage Selection Questionnaire",
+    "description": "Evaluate your experience after selecting the baggage."
+  },
+  "overallExperience": {
+    "title": "Overall Experience Questionnaire",
+    "description": "Evaluate your experience on each type of page."
+  },
+  "questions": {
+    "informationRetrievalSpeed": "I quickly found the relevant information.",
+    "elementDistraction": "Highlighted elements distract when they are not relevant.",
+    "visualAppeal": "The appearance of the page is pleasant and attractive to me.",
+    "professionalAppearance": "The appearance of the page conveys professionalism.",
+    "serviceQuality": "The appearance of the page conveys confidence in the quality of the services offered.",
+    "priceExpectation": "The appearance of the page makes me expect high prices."
+  },
+  "labels": {
+    "verySlowly": "Very slowly",
+    "veryQuickly": "Very quickly",
+    "notPleasant": "Not pleasant",
+    "veryPleasant": "Very pleasant",
+    "notProfessional": "Not professional",
+    "veryProfessional": "Very professional",
+    "lowQuality": "Low quality",
+    "highQuality": "High quality",
+    "veryLow": "Very low",
+    "veryHigh": "Very high",
+    "stronglyDisagree": "Strongly disagree",
+    "stronglyAgree": "Strongly agree"
+  },
+  "scales": {
+    "flight": "Flight Selection",
+    "baggage": "Baggage Selection"
+  }
+}

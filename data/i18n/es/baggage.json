@@ -1,0 +1,27 @@
+{
+  "pageTitle": "Opciones de Equipaje",
+  "category": {
+    "handBag": "Solo Bolso de Mano",
+    "cabinBag": "Equipaje de Cabina",
+    "checkedBag": "Equipaje Facturado",
+    "specialBag": "Equipaje Especial"
+  },
+  "option": {
+    "personalItem": "1 artículo personal (40x30x20cm)",
+    "fitsUnderSeat": "Cabe bajo el asiento",
+    "cabinBag": "Equipaje de cabina",
+    "cabinBagSize": "1 maleta de cabina (55x40x20cm)",
+    "checkedBaggage": "Equipaje facturado",
+    "priorityBoarding": "Embarque prioritario",
+    "checkedBag20kg": "1 maleta facturada (20kg)",
+    "checkedBag32kg": "1 maleta facturada (32kg)",
+    "extraWeightAllowance": "Franquicia de peso extra",
+    "sportEquipment": "Equipamiento deportivo permitido",
+    "musicalInstruments": "Instrumentos musicales",
+    "extraCheckedBag": "1 maleta facturada adicional"
+  },
+  "labels": {
+    "price": "Precio",
+    "includedOptions": "Opciones incluidas"
+  }
+}

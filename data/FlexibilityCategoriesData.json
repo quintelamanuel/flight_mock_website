@@ -3,28 +3,28 @@
         "__type": "TFlexibilityCategoryData",
         "flexibilityId": "flexibility_nonRefundable_1",
         "flexibilityCategory": "nonRefundable",
-        "flexibilityTitle": "Non-Refundable",
+        "flexibilityTitleKey": "flexibility:category.nonRefundable",
         "flexibilityPrice": "included",
-        "flexibilityDescription": "No changes allowed. This fare is final and cannot be modified or cancelled for a refund.",
+        "flexibilityDescriptionKey": "flexibility:description.nonRefundable",
         "flexibilityOptions": [
             {
                 "__type": "TFlexibilityOption",
-                "flexibilityOption": "Date/time changes",
+                "flexibilityOptionKey": "flexibility:option.dateTimeChanges",
                 "available": false
             },
             {
                 "__type": "TFlexibilityOption",
-                "flexibilityOption": "Name changes",
+                "flexibilityOptionKey": "flexibility:option.nameChanges",
                 "available": false
             },
             {
                 "__type": "TFlexibilityOption",
-                "flexibilityOption": "Refund available",
+                "flexibilityOptionKey": "flexibility:option.refundAvailable",
                 "available": false
             },
             {
                 "__type": "TFlexibilityOption",
-                "flexibilityOption": "Flight credit if cancelled",
+                "flexibilityOptionKey": "flexibility:option.flightCreditIfCancelled",
                 "available": false
             }
         ],
@@ -34,28 +34,28 @@
         "__type": "TFlexibilityCategoryData",
         "flexibilityId": "flexibility_flexible_2",
         "flexibilityCategory": "flexible",
-        "flexibilityTitle": "Flexible",
+        "flexibilityTitleKey": "flexibility:category.flexible",
         "flexibilityPrice": 35,
-        "flexibilityDescription": "Change your flight date or time for a small fee. Ideal for travelers who may need some flexibility.",
+        "flexibilityDescriptionKey": "flexibility:description.flexible",
         "flexibilityOptions": [
             {
                 "__type": "TFlexibilityOption",
-                "flexibilityOption": "Date/time changes (25€ fee)",
+                "flexibilityOptionKey": "flexibility:option.dateTimeChangesFee",
                 "available": true
             },
             {
                 "__type": "TFlexibilityOption",
-                "flexibilityOption": "Name changes",
+                "flexibilityOptionKey": "flexibility:option.nameChanges",
                 "available": false
             },
             {
                 "__type": "TFlexibilityOption",
-                "flexibilityOption": "Refund available",
+                "flexibilityOptionKey": "flexibility:option.refundAvailable",
                 "available": false
             },
             {
                 "__type": "TFlexibilityOption",
-                "flexibilityOption": "Flight credit if cancelled",
+                "flexibilityOptionKey": "flexibility:option.flightCreditIfCancelled",
                 "available": true
             }
         ],
@@ -65,28 +65,28 @@
         "__type": "TFlexibilityCategoryData",
         "flexibilityId": "flexibility_fullyFlexible_3",
         "flexibilityCategory": "fullyFlexible",
-        "flexibilityTitle": "Fully Flexible",
+        "flexibilityTitleKey": "flexibility:category.fullyFlexible",
         "flexibilityPrice": 75,
-        "flexibilityDescription": "Complete peace of mind. Free unlimited changes and full refund if you cancel your trip.",
+        "flexibilityDescriptionKey": "flexibility:description.fullyFlexible",
         "flexibilityOptions": [
             {
                 "__type": "TFlexibilityOption",
-                "flexibilityOption": "Unlimited free date/time changes",
+                "flexibilityOptionKey": "flexibility:option.unlimitedDateTimeChanges",
                 "available": true
             },
             {
                 "__type": "TFlexibilityOption",
-                "flexibilityOption": "Name changes (one allowed)",
+                "flexibilityOptionKey": "flexibility:option.nameChangesOneAllowed",
                 "available": true
             },
             {
                 "__type": "TFlexibilityOption",
-                "flexibilityOption": "Full refund available",
+                "flexibilityOptionKey": "flexibility:option.fullRefundAvailable",
                 "available": true
             },
             {
                 "__type": "TFlexibilityOption",
-                "flexibilityOption": "Flight credit if cancelled",
+                "flexibilityOptionKey": "flexibility:option.flightCreditIfCancelled",
                 "available": true
             }
         ],

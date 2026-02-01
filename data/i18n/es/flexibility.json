@@ -1,0 +1,23 @@
+{
+  "pageTitle": "Opciones de Flexibilidad",
+  "category": {
+    "nonRefundable": "No Reembolsable",
+    "flexible": "Flexible",
+    "fullyFlexible": "Totalmente Flexible"
+  },
+  "description": {
+    "nonRefundable": "No se permiten cambios. Esta tarifa es definitiva y no puede ser modificada ni cancelada para reembolso.",
+    "flexible": "Cambia la fecha u hora de tu vuelo por una pequeña tarifa. Ideal para viajeros que puedan necesitar algo de flexibilidad.",
+    "fullyFlexible": "Total tranquilidad. Cambios ilimitados gratuitos y reembolso completo si cancelas tu viaje."
+  },
+  "option": {
+    "dateTimeChanges": "Cambios de fecha/hora",
+    "dateTimeChangesFee": "Cambios de fecha/hora (tarifa de 25€)",
+    "unlimitedDateTimeChanges": "Cambios de fecha/hora ilimitados y gratuitos",
+    "nameChanges": "Cambios de nombre",
+    "nameChangesOneAllowed": "Cambios de nombre (uno permitido)",
+    "refundAvailable": "Reembolso disponible",
+    "fullRefundAvailable": "Reembolso completo disponible",
+    "flightCreditIfCancelled": "Crédito de vuelo si se cancela"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "flight": {
+    "title": "Cuestionario sobre selección de vuelos",
+    "description": "Evalúa tu experiencia tras seleccionar los vuelos."
+  },
+  "baggage": {
+    "title": "Cuestionario sobre selección de equipaje",
+    "description": "Evalúa tu experiencia tras seleccionar el equipaje."
+  },
+  "overall": {
+    "title": "Cuestionario sobre la experiencia general",
+    "description": "Evalúa tu experiencia en cada tipo de página."
+  },
+  "questions": {
+    "informationRetrievalSpeed": "Encontré rápidamente la información relevante.",
+    "visualAppeal": "El aspecto de la página me resulta agradable y atractivo.",
+    "professionalAppearance": "El aspecto de la página transmite profesionalidad.",
+    "serviceQuality": "El aspecto de la página transmite confianza en la calidad de los servicios ofrecidos.",
+    "serviceQualityConfidence": "El aspecto de la página transmite confianza en la calidad de los servicios ofrecidos.",
+    "priceExpectation": "El aspecto de la página me hace esperar precios elevados.",
+    "elementDistraction": "Los elementos destacados distraen cuando no son relevantes."
+  },
+  "labels": {
+    "verySlowly": "Muy lentamente",
+    "veryQuickly": "Muy rápidamente",
+    "notPleasant": "Poco agradable",
+    "veryPleasant": "Muy agradable",
+    "notProfessional": "Poco profesional",
+    "veryProfessional": "Muy profesional",
+    "lowQuality": "Poca calidad",
+    "highQuality": "Mucha calidad",
+    "veryLow": "Muy bajos",
+    "veryHigh": "Muy elevados",
+    "stronglyDisagree": "Muy en desacuerdo",
+    "stronglyAgree": "Muy de acuerdo"
+  },
+  "scales": {
+    "flightSelection": "Selección de vuelos",
+    "baggageSelection": "Selección de equipaje"
+  }
+}

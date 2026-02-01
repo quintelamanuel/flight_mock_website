@@ -1,47 +1,47 @@
 {
     "questionnaireId": "flight_selection_satisfaction",
-    "title": "Cuestionario sobre selección de vuelos",
-    "description": "Evalúa tu experiencia tras seleccionar los vuelos.",
+    "titleKey": "likert.flight.title",
+    "descriptionKey": "likert.flight.description",
     "questions": [
         {
             "questionId": "q1_information_retrieval_speed",
-            "questionText": "Encontré rápidamente la información relevante.",
+            "questionTextKey": "likert.questions.informationRetrievalSpeed",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Muy lentamente",
-            "upperLabel": "Muy rápidamente"
+            "lowerLabelKey": "likert.labels.verySlowly",
+            "upperLabelKey": "likert.labels.veryQuickly"
         },
         {
             "questionId": "q2_visual_appeal",
-            "questionText": "El aspecto de la página me resulta agradable y atractivo.",
+            "questionTextKey": "likert.questions.visualAppeal",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Poco agradable",
-            "upperLabel": "Muy agradable"
+            "lowerLabelKey": "likert.labels.notPleasant",
+            "upperLabelKey": "likert.labels.veryPleasant"
         },
         {
             "questionId": "q3_professional_appearance",
-            "questionText": "El aspecto de la página transmite profesionalidad.",
+            "questionTextKey": "likert.questions.professionalAppearance",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Poco profesional",
-            "upperLabel": "Muy profesional"
+            "lowerLabelKey": "likert.labels.notProfessional",
+            "upperLabelKey": "likert.labels.veryProfessional"
         },
         {
             "questionId": "q4_service_quality",
-            "questionText": "El aspecto de la página transmite confianza en la calidad de los servicios ofrecidos",
+            "questionTextKey": "likert.questions.serviceQuality",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Poca calidad",
-            "upperLabel": "Mucha calidad"
+            "lowerLabelKey": "likert.labels.lowQuality",
+            "upperLabelKey": "likert.labels.highQuality"
         },
         {
             "questionId": "q5_price_expectation",
-            "questionText": "El aspecto de la página me hace esperar precios elevados.",
+            "questionTextKey": "likert.questions.priceExpectation",
             "lowerNumber": 1,
             "upperNumber": 7,
-            "lowerLabel": "Muy bajos",
-            "upperLabel": "Muy elevados"
+            "lowerLabelKey": "likert.labels.veryLow",
+            "upperLabelKey": "likert.labels.veryHigh"
         }
     ]
 }

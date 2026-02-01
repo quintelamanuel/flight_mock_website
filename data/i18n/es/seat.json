@@ -1,0 +1,13 @@
+{
+  "pageTitle": "Selección de Asiento",
+  "sectionTitle": "Selección de Asiento",
+  "legend": "Leyenda",
+  "occupied": "Ocupado",
+  "category": {
+    "business": "Business",
+    "economyPlus": "Turista Plus",
+    "economy": "Turista",
+    "aisle": "Pasillo",
+    "exit": "Fila de Salida"
+  }
+}

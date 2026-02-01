@@ -1,84 +1,282 @@
 {
     "__type": "TYearTaggedDates",
-
-    "displayTextForTag":{
+    "displayTextForTagKey": {
         "normal": "",
-        "bestPrice": "price",
-        "fastest": "fast",
-        "mostFlexible": "flex"
+        "bestPrice": "flight:tags.bestPrice",
+        "fastest": "flight:tags.fastest",
+        "mostFlexible": "flight:tags.mostFlexible"
     },
     "monthsTaggedDates": {
-        "0" : {
-        "__type":"TMonthTaggedDates",
-            "bestPrice": [1, 5, 14, 20, 29],
-            "fastest": [3, 6, 7, 8, 18, 25],
-            "mostFlexible": [2, 4, 10, 16, 21, 27]
+        "0": {
+            "__type": "TMonthTaggedDates",
+            "bestPrice": [
+                1,
+                5,
+                14,
+                20,
+                29
+            ],
+            "fastest": [
+                3,
+                6,
+                7,
+                8,
+                18,
+                25
+            ],
+            "mostFlexible": [
+                2,
+                4,
+                10,
+                16,
+                21,
+                27
+            ]
         },
-        "1" : {
-        "__type":"TMonthTaggedDates",
-            "bestPrice": [7, 15, 21, 27],
-            "fastest": [1, 2, 11, 19],
-            "mostFlexible": [5, 6, 16, 20, 25, 26]
+        "1": {
+            "__type": "TMonthTaggedDates",
+            "bestPrice": [
+                7,
+                15,
+                21,
+                27
+            ],
+            "fastest": [
+                1,
+                2,
+                11,
+                19
+            ],
+            "mostFlexible": [
+                5,
+                6,
+                16,
+                20,
+                25,
+                26
+            ]
         },
-        "2" : {
-        "__type":"TMonthTaggedDates",
-            "bestPrice": [3, 9, 15, 21, 28],
-            "fastest": [2, 10, 17, 23, 31],
-            "mostFlexible": [5, 12, 19, 25]
+        "2": {
+            "__type": "TMonthTaggedDates",
+            "bestPrice": [
+                3,
+                9,
+                15,
+                21,
+                28
+            ],
+            "fastest": [
+                2,
+                10,
+                17,
+                23,
+                31
+            ],
+            "mostFlexible": [
+                5,
+                12,
+                19,
+                25
+            ]
         },
-        "3" : {
-        "__type":"TMonthTaggedDates",
-            "bestPrice": [3, 9, 17, 27],
-            "fastest": [4, 12, 15, 22, 30],
-            "mostFlexible": [5, 16, 20, 22]
+        "3": {
+            "__type": "TMonthTaggedDates",
+            "bestPrice": [
+                3,
+                9,
+                17,
+                27
+            ],
+            "fastest": [
+                4,
+                12,
+                15,
+                22,
+                30
+            ],
+            "mostFlexible": [
+                5,
+                16,
+                20,
+                22
+            ]
         },
-        "4" : {
-        "__type":"TMonthTaggedDates",
-            "bestPrice": [1, 8, 15, 22, 29],
-            "fastest": [4, 11, 18, 25],
-            "mostFlexible": [6, 13, 20, 27, 31]
+        "4": {
+            "__type": "TMonthTaggedDates",
+            "bestPrice": [
+                1,
+                8,
+                15,
+                22,
+                29
+            ],
+            "fastest": [
+                4,
+                11,
+                18,
+                25
+            ],
+            "mostFlexible": [
+                6,
+                13,
+                20,
+                27,
+                31
+            ]
         },
-        "5" : {
-        "__type":"TMonthTaggedDates",
-            "bestPrice": [3, 10, 17, 24],
-            "fastest": [5, 12, 19, 26],
-            "mostFlexible": [8, 15, 22, 29]
+        "5": {
+            "__type": "TMonthTaggedDates",
+            "bestPrice": [
+                3,
+                10,
+                17,
+                24
+            ],
+            "fastest": [
+                5,
+                12,
+                19,
+                26
+            ],
+            "mostFlexible": [
+                8,
+                15,
+                22,
+                29
+            ]
         },
-        "6" : {
-        "__type":"TMonthTaggedDates",
-            "bestPrice": [4, 11, 18, 25, 30],
-            "fastest": [2, 9, 16, 23],
-            "mostFlexible": [6, 13, 20, 27]
+        "6": {
+            "__type": "TMonthTaggedDates",
+            "bestPrice": [
+                4,
+                11,
+                18,
+                25,
+                30
+            ],
+            "fastest": [
+                2,
+                9,
+                16,
+                23
+            ],
+            "mostFlexible": [
+                6,
+                13,
+                20,
+                27
+            ]
         },
-        "7" : {
-        "__type":"TMonthTaggedDates",
-            "bestPrice": [1, 8, 15, 22, 29],
-            "fastest": [3, 10, 17, 24, 31],
-            "mostFlexible": [6, 13, 20, 27]
+        "7": {
+            "__type": "TMonthTaggedDates",
+            "bestPrice": [
+                1,
+                8,
+                15,
+                22,
+                29
+            ],
+            "fastest": [
+                3,
+                10,
+                17,
+                24,
+                31
+            ],
+            "mostFlexible": [
+                6,
+                13,
+                20,
+                27
+            ]
         },
-        "8" : {
-        "__type":"TMonthTaggedDates",
-            "bestPrice": [5, 12, 19, 26],
-            "fastest": [2, 9, 16, 23, 30],
-            "mostFlexible": [7, 14, 21, 28]
+        "8": {
+            "__type": "TMonthTaggedDates",
+            "bestPrice": [
+                5,
+                12,
+                19,
+                26
+            ],
+            "fastest": [
+                2,
+                9,
+                16,
+                23,
+                30
+            ],
+            "mostFlexible": [
+                7,
+                14,
+                21,
+                28
+            ]
         },
-        "9" : {
-        "__type":"TMonthTaggedDates",
-            "bestPrice": [3, 10, 17, 24, 31],
-            "fastest": [5, 12, 19, 26],
-            "mostFlexible": [8, 15, 22, 29]
+        "9": {
+            "__type": "TMonthTaggedDates",
+            "bestPrice": [
+                3,
+                10,
+                17,
+                24,
+                31
+            ],
+            "fastest": [
+                5,
+                12,
+                19,
+                26
+            ],
+            "mostFlexible": [
+                8,
+                15,
+                22,
+                29
+            ]
         },
-        "10" : {
-        "__type":"TMonthTaggedDates",
-            "bestPrice": [7, 14, 21, 28],
-            "fastest": [2, 9, 16, 23, 30],
-            "mostFlexible": [5, 12, 19, 26]
+        "10": {
+            "__type": "TMonthTaggedDates",
+            "bestPrice": [
+                7,
+                14,
+                21,
+                28
+            ],
+            "fastest": [
+                2,
+                9,
+                16,
+                23,
+                30
+            ],
+            "mostFlexible": [
+                5,
+                12,
+                19,
+                26
+            ]
         },
-        "11" : {
-        "__type":"TMonthTaggedDates",
-            "bestPrice": [5, 12, 19, 26],
-            "fastest": [2, 9, 16, 23, 30],
-            "mostFlexible": [7, 14, 21, 28]
+        "11": {
+            "__type": "TMonthTaggedDates",
+            "bestPrice": [
+                5,
+                12,
+                19,
+                26
+            ],
+            "fastest": [
+                2,
+                9,
+                16,
+                23,
+                30
+            ],
+            "mostFlexible": [
+                7,
+                14,
+                21,
+                28
+            ]
         }
     }
 }

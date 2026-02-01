@@ -1,0 +1,53 @@
+{
+  "navigation": {
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "pageTitle": {
+    "userIdentification": "User Identification",
+    "baggageSelection": "Baggage Selection"
+  },
+  "menu": {
+    "searchFlight": "Search Flight",
+    "departureFlight": "Departure Flight",
+    "returnFlight": "Return Flight",
+    "chooseBaggage": "Baggage",
+    "departureBaggage": "Departure Baggage",
+    "returnBaggage": "Return Baggage",
+    "chooseMeal": "Meal",
+    "chooseFlexibility": "Flexibility",
+    "selectSeat": "Seat",
+    "userId": "User ID",
+    "flightFeedback": "Flight Survey",
+    "baggageFeedback": "Baggage Survey",
+    "overallFeedback": "Final Survey",
+    "finish": "Finish"
+  },
+  "loading": {
+    "application": "Loading application data...",
+    "flightResults": "Loading flight results..."
+  },
+  "userInput": {
+    "userId": "User ID",
+    "userIdPlaceholder": "Enter your user ID",
+    "gender": "Gender",
+    "selectGender": "Select gender",
+    "male": "Male",
+    "female": "Female",
+    "other": "Other",
+    "preferNotToSay": "Prefer not to say",
+    "age": "Age",
+    "agePlaceholder": "Enter your age"
+  },
+  "price": {
+    "included": "INCLUDED",
+    "currency": "€"
+  },
+  "finish": {
+    "title": "Booking Complete",
+    "message": "Thank you for completing the booking process!",
+    "button": "Finish",
+    "finishedTitle": "Experiment Finished",
+    "finishedMessage": "Your data has been submitted successfully. Redirecting..."
+  }
+}

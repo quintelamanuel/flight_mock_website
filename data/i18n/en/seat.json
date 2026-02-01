@@ -1,0 +1,13 @@
+{
+  "pageTitle": "Flight Seat Selection",
+  "sectionTitle": "Seat Selection",
+  "legend": "Legend",
+  "occupied": "Occupied",
+  "category": {
+    "business": "Business",
+    "economyPlus": "Economy Plus",
+    "economy": "Economy",
+    "aisle": "Aisle",
+    "exit": "Exit Row"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "navigation": {
+    "previous": "Anterior",
+    "next": "Siguiente"
+  },
+  "pageTitle": {
+    "userIdentification": "Identificación de Usuario",
+    "baggageSelection": "Selección de Equipaje"
+  },
+  "menu": {
+    "searchFlight": "Buscar Vuelo",
+    "departureFlight": "Vuelo de Ida",
+    "returnFlight": "Vuelo de Vuelta",
+    "chooseBaggage": "Equipaje",
+    "departureBaggage": "Equipaje Ida",
+    "returnBaggage": "Equipaje Vuelta",
+    "chooseMeal": "Menú",
+    "chooseFlexibility": "Flexibilidad",
+    "selectSeat": "Asiento",
+    "userId": "ID Usuario",
+    "flightFeedback": "Encuesta Vuelos",
+    "baggageFeedback": "Encuesta Equipaje",
+    "overallFeedback": "Encuesta Final",
+    "finish": "Fin"
+  },
+  "loading": {
+    "application": "Cargando datos de la aplicación...",
+    "flightResults": "Cargando resultados de vuelos..."
+  },
+  "userInput": {
+    "userId": "ID de Usuario",
+    "userIdPlaceholder": "Introduce tu ID de usuario",
+    "gender": "Género",
+    "selectGender": "Selecciona género",
+    "male": "Masculino",
+    "female": "Femenino",
+    "other": "Otro",
+    "preferNotToSay": "Prefiero no decirlo",
+    "age": "Edad",
+    "agePlaceholder": "Introduce tu edad"
+  },
+  "price": {
+    "included": "INCLUIDO",
+    "currency": "€"
+  },
+  "finish": {
+    "title": "Reserva Completada",
+    "message": "¡Gracias por completar el proceso de reserva!",
+    "button": "Finalizar",
+    "finishedTitle": "Experimento Finalizado",
+    "finishedMessage": "Tus datos han sido enviados correctamente. Redirigiendo..."
+  }
+}
