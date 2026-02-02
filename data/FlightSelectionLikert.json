@@ -1,5 +1,6 @@
 {
     "questionnaireId": "flight_selection_satisfaction",
+    "scalePointSize": "medium",
     "titleKey": "likert.flight.title",
     "descriptionKey": "likert.flight.description",
     "questions": [

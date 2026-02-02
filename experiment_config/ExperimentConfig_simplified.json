@@ -22,7 +22,7 @@
             "departure_baggage_options": "blueComplementary",
             "return_baggage_options": "blueComplementary",
             "baggage_selection_feedback": "blueComplementary",
-            "overall_experience_feedback": "blueAnalogous"
+            "overall_experience_feedback": "blueComplementary"
         }
     },
     "experimentMode": true,

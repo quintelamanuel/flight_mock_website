@@ -9,7 +9,7 @@
   },
   "overall": {
     "title": "Cuestionario sobre la experiencia general",
-    "description": "Evalúa tu experiencia en cada tipo de página."
+    "description": "Evalúa estos dos diseños."
   },
   "questions": {
     "informationRetrievalSpeed": "Encontré rápidamente la información relevante.",
@@ -35,6 +35,10 @@
     "stronglyAgree": "Muy de acuerdo"
   },
   "scales": {
+    "interface1": "Interfaz 1",
+    "interface2": "Interfaz 2"
+  },
+  "images": {
     "interface1": "Interfaz 1",
     "interface2": "Interfaz 2"
   }

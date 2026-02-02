@@ -1,5 +1,6 @@
 {
     "questionnaireId": "baggage_selection_satisfaction",
+    "scalePointSize": "medium",
     "titleKey": "likert.baggage.title",
     "descriptionKey": "likert.baggage.description",
     "questions": [

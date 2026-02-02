@@ -9,7 +9,7 @@
   },
   "overallExperience": {
     "title": "Overall Experience Questionnaire",
-    "description": "Evaluate your experience on each type of page."
+    "description": "Evaluate these two designs."
   },
   "questions": {
     "informationRetrievalSpeed": "I quickly found the relevant information.",
@@ -34,6 +34,10 @@
     "stronglyAgree": "Strongly agree"
   },
   "scales": {
+    "interface1": "Interface 1",
+    "interface2": "Interface 2"
+  },
+  "images": {
     "interface1": "Interface 1",
     "interface2": "Interface 2"
   }

@@ -2,27 +2,21 @@
     "questionnaireId": "overall_experience_satisfaction",
     "titleKey": "likert.overall.title",
     "descriptionKey": "likert.overall.description",
-    "questions": [
+    "referenceImages": [
         {
-            "questionId": "q1_information_retrieval_speed",
-            "questionTextKey": "likert.questions.informationRetrievalSpeed",
-            "lowerNumber": 1,
-            "upperNumber": 7,
-            "lowerLabelKey": "likert.labels.stronglyDisagree",
-            "upperLabelKey": "likert.labels.stronglyAgree",
-            "scales": [
-                {
-                    "scaleId": "flight",
-                    "scaleLabelKey": "likert.scales.interface1"
-                },
-                {
-                    "scaleId": "baggage",
-                    "scaleLabelKey": "likert.scales.interface2"
-                }
-            ]
+            "id": "interface1",
+            "src": "analogue_horizontal.png",
+            "captionKey": "likert.images.interface1"
         },
         {
-            "questionId": "q2_element_distraction",
+            "id": "interface2",
+            "src": "complementary_horizontal.png",
+            "captionKey": "likert.images.interface2"
+        }
+    ],
+    "questions": [
+        {
+            "questionId": "q1_element_distraction",
             "questionTextKey": "likert.questions.elementDistraction",
             "lowerNumber": 1,
             "upperNumber": 7,
@@ -40,7 +34,7 @@
             ]
         },
         {
-            "questionId": "q3_visual_appeal",
+            "questionId": "q2_visual_appeal",
             "questionTextKey": "likert.questions.visualAppeal",
             "lowerNumber": 1,
             "upperNumber": 7,
@@ -58,7 +52,7 @@
             ]
         },
         {
-            "questionId": "q4_professional_appearance",
+            "questionId": "q3_professional_appearance",
             "questionTextKey": "likert.questions.professionalAppearance",
             "lowerNumber": 1,
             "upperNumber": 7,
@@ -76,7 +70,7 @@
             ]
         },
         {
-            "questionId": "q5_service_quality",
+            "questionId": "q4_service_quality",
             "questionTextKey": "likert.questions.serviceQualityConfidence",
             "lowerNumber": 1,
             "upperNumber": 7,
@@ -94,7 +88,7 @@
             ]
         },
         {
-            "questionId": "q6_price_expectation",
+            "questionId": "q5_price_expectation",
             "questionTextKey": "likert.questions.priceExpectation",
             "lowerNumber": 1,
             "upperNumber": 7,
