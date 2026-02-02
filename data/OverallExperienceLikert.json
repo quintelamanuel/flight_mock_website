@@ -13,11 +13,11 @@
             "scales": [
                 {
                     "scaleId": "flight",
-                    "scaleLabelKey": "likert.scales.flightSelection"
+                    "scaleLabelKey": "likert.scales.interface1"
                 },
                 {
                     "scaleId": "baggage",
-                    "scaleLabelKey": "likert.scales.baggageSelection"
+                    "scaleLabelKey": "likert.scales.interface2"
                 }
             ]
         },
@@ -31,11 +31,11 @@
             "scales": [
                 {
                     "scaleId": "flight",
-                    "scaleLabelKey": "likert.scales.flightSelection"
+                    "scaleLabelKey": "likert.scales.interface1"
                 },
                 {
                     "scaleId": "baggage",
-                    "scaleLabelKey": "likert.scales.baggageSelection"
+                    "scaleLabelKey": "likert.scales.interface2"
                 }
             ]
         },
@@ -49,11 +49,11 @@
             "scales": [
                 {
                     "scaleId": "flight",
-                    "scaleLabelKey": "likert.scales.flightSelection"
+                    "scaleLabelKey": "likert.scales.interface1"
                 },
                 {
                     "scaleId": "baggage",
-                    "scaleLabelKey": "likert.scales.baggageSelection"
+                    "scaleLabelKey": "likert.scales.interface2"
                 }
             ]
         },
@@ -67,11 +67,11 @@
             "scales": [
                 {
                     "scaleId": "flight",
-                    "scaleLabelKey": "likert.scales.flightSelection"
+                    "scaleLabelKey": "likert.scales.interface1"
                 },
                 {
                     "scaleId": "baggage",
-                    "scaleLabelKey": "likert.scales.baggageSelection"
+                    "scaleLabelKey": "likert.scales.interface2"
                 }
             ]
         },
@@ -85,11 +85,11 @@
             "scales": [
                 {
                     "scaleId": "flight",
-                    "scaleLabelKey": "likert.scales.flightSelection"
+                    "scaleLabelKey": "likert.scales.interface1"
                 },
                 {
                     "scaleId": "baggage",
-                    "scaleLabelKey": "likert.scales.baggageSelection"
+                    "scaleLabelKey": "likert.scales.interface2"
                 }
             ]
         },
@@ -103,11 +103,11 @@
             "scales": [
                 {
                     "scaleId": "flight",
-                    "scaleLabelKey": "likert.scales.flightSelection"
+                    "scaleLabelKey": "likert.scales.interface1"
                 },
                 {
                     "scaleId": "baggage",
-                    "scaleLabelKey": "likert.scales.baggageSelection"
+                    "scaleLabelKey": "likert.scales.interface2"
                 }
             ]
         }

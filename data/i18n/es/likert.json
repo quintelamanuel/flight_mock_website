@@ -35,7 +35,7 @@
     "stronglyAgree": "Muy de acuerdo"
   },
   "scales": {
-    "flightSelection": "Selección de vuelos",
-    "baggageSelection": "Selección de equipaje"
+    "interface1": "Interfaz 1",
+    "interface2": "Interfaz 2"
   }
 }

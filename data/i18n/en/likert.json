@@ -34,7 +34,7 @@
     "stronglyAgree": "Strongly agree"
   },
   "scales": {
-    "flight": "Flight Selection",
-    "baggage": "Baggage Selection"
+    "interface1": "Interface 1",
+    "interface2": "Interface 2"
   }
 }
