@@ -1,6 +1,6 @@
 {
     "lateralSliding": true,
-    "userIdPrefix": "colors_blue_orange_",
+    "userIdPrefix": "colors_orange_blue_",
     "pageInstructions": {
         "user_id": "Introduce the user id",
         "departure_flight_selection": "Select a flight that leaves Madrid after 09:00 and does not have extra legroom.",
