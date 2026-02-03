@@ -1,0 +1,53 @@
+{
+    "lateralSliding": true,
+    "userIdPrefix": "colors_blue_orange_",
+    "pageInstructions": {
+        "user_id": "Introduce the user id",
+        "departure_flight_selection": "Select a flight that leaves Madrid after 09:00 and does not have extra legroom.",
+        "return_flight_selection": "Select a flight that arrives in Barcelona before 10:00 and offers priority boarding.",
+        "flight_selection_feedback": "Please answer the following questions before continuing.",
+        "departure_baggage_options": "Choose a baggage option without checked baggage.",
+        "return_baggage_options": "Choose a baggage option that allows your to check a 30kg bag.",
+        "baggage_selection_feedback": "Please answer the following questions about the baggage selection.",
+        "overall_experience_feedback": "Please answer the following questions about your overall experience.",
+        "continue": "Completed successfully. Continue to the next step."
+    },
+    "perPagePalettes": {
+        "enabled": true,
+        "palettes": {
+            "user_id": "blueComplementary",
+            "departure_flight_selection": "blueComplementary",
+            "return_flight_selection": "blueComplementary",
+            "flight_selection_feedback": "blueComplementary",
+            "departure_baggage_options": "blueAnalogous",
+            "return_baggage_options": "blueAnalogous",
+            "baggage_selection_feedback": "blueAnalogous",
+            "overall_experience_feedback": "blueAnalogous"
+        }
+    },
+    "experimentMode": true,
+    "intendedSelections": {
+        "departure_flight_selection": [
+            {
+                "flightId": "2",
+                "ticketCategories": [
+                    "economy"
+                ]
+            }
+        ],
+        "return_flight_selection": [
+            {
+                "flightId": "1",
+                "ticketCategories": [
+                    "business"
+                ]
+            }
+        ],
+        "departure_baggage_options": [
+            "baggage_cabinBag_2"
+        ],
+        "return_baggage_options": [
+            "baggage_specialBag_4"
+        ]
+    }
+}

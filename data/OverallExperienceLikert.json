@@ -6,12 +6,12 @@
     "referenceImages": [
         {
             "id": "interface1",
-            "src": "analogue_horizontal.png",
+            "src": "complementary_horizontal.png",
             "captionKey": "likert.images.interface1"
         },
         {
             "id": "interface2",
-            "src": "complementary_horizontal.png",
+            "src": "analogue_horizontal.png",
             "captionKey": "likert.images.interface2"
         }
     ],
