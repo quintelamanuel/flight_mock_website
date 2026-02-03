@@ -805,3 +805,99 @@ function registergender(value) {
 function registeruser_id(value) {
 	postStringDD(199, value);
 }
+
+// Handedness (Lateralidad)
+function registerhandedness(value) {
+	// value should be 'left_handed' (zurdo) or 'right_handed' (diestro)
+	postStringDD(200, value);
+}
+
+// ====================================================================
+// FLIGHT SELECTION LIKERT QUESTIONNAIRE DEMOGRAPHICS
+// ====================================================================
+function register_flight_q1_information_retrieval_speed(value) {
+	postNumberDD(201, value);
+}
+function register_flight_q2_visual_appeal(value) {
+	postNumberDD(202, value);
+}
+function register_flight_q3_professional_appearance(value) {
+	postNumberDD(203, value);
+}
+function register_flight_q4_service_quality(value) {
+	postNumberDD(204, value);
+}
+function register_flight_q5_price_expectation(value) {
+	postNumberDD(205, value);
+}
+
+// ====================================================================
+// BAGGAGE SELECTION LIKERT QUESTIONNAIRE DEMOGRAPHICS
+// ====================================================================
+function register_baggage_q1_information_retrieval_speed(value) {
+	postNumberDD(206, value);
+}
+function register_baggage_q2_visual_appeal(value) {
+	postNumberDD(207, value);
+}
+function register_baggage_q3_professional_appearance(value) {
+	postNumberDD(208, value);
+}
+function register_baggage_q4_service_quality(value) {
+	postNumberDD(209, value);
+}
+function register_baggage_q5_price_expectation(value) {
+	postNumberDD(210, value);
+}
+
+// ====================================================================
+// OVERALL EXPERIENCE LIKERT QUESTIONNAIRE DEMOGRAPHICS
+// Each question has two scales: interface1 and interface2 (two color designs)
+// ====================================================================
+// Q1 Information Without Highlight (NEW)
+function register_overall_q1_information_without_highlight_interface1(value) {
+	postNumberDD(211, value);
+}
+function register_overall_q1_information_without_highlight_interface2(value) {
+	postNumberDD(212, value);
+}
+
+// Q2 Element Distraction (was Q1)
+function register_overall_q2_element_distraction_interface1(value) {
+	postNumberDD(213, value);
+}
+function register_overall_q2_element_distraction_interface2(value) {
+	postNumberDD(214, value);
+}
+
+// Q3 Visual Appeal (was Q2)
+function register_overall_q3_visual_appeal_interface1(value) {
+	postNumberDD(215, value);
+}
+function register_overall_q3_visual_appeal_interface2(value) {
+	postNumberDD(216, value);
+}
+
+// Q4 Professional Appearance (was Q3)
+function register_overall_q4_professional_appearance_interface1(value) {
+	postNumberDD(217, value);
+}
+function register_overall_q4_professional_appearance_interface2(value) {
+	postNumberDD(218, value);
+}
+
+// Q5 Service Quality (was Q4)
+function register_overall_q5_service_quality_interface1(value) {
+	postNumberDD(219, value);
+}
+function register_overall_q5_service_quality_interface2(value) {
+	postNumberDD(220, value);
+}
+
+// Q6 Price Expectation (was Q5)
+function register_overall_q6_price_expectation_interface1(value) {
+	postNumberDD(221, value);
+}
+function register_overall_q6_price_expectation_interface2(value) {
+	postNumberDD(222, value);
+}

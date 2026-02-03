@@ -13,12 +13,13 @@
   },
   "questions": {
     "informationRetrievalSpeed": "Encontré rápidamente la información relevante.",
+    "informationWithoutHighlight": "Es fácil encontrar la información aunque no esté resaltada.",
+    "elementDistraction": "Los elementos resaltados distraen cuando no son relevantes.",
     "visualAppeal": "El aspecto de la página me resulta agradable y atractivo.",
     "professionalAppearance": "El aspecto de la página transmite profesionalidad.",
     "serviceQuality": "El aspecto de la página transmite confianza en la calidad de los servicios ofrecidos.",
     "serviceQualityConfidence": "El aspecto de la página transmite confianza en la calidad de los servicios ofrecidos.",
-    "priceExpectation": "El aspecto de la página me hace esperar precios elevados.",
-    "elementDistraction": "Los elementos destacados distraen cuando no son relevantes."
+    "priceExpectation": "El aspecto de la página me hace esperar precios elevados."
   },
   "labels": {
     "verySlowly": "Muy lentamente",

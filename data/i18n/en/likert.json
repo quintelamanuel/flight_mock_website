@@ -13,6 +13,7 @@
   },
   "questions": {
     "informationRetrievalSpeed": "I quickly found the relevant information.",
+    "informationWithoutHighlight": "It is easy to find information even when it is not highlighted.",
     "elementDistraction": "Highlighted elements distract when they are not relevant.",
     "visualAppeal": "The appearance of the page is pleasant and attractive to me.",
     "professionalAppearance": "The appearance of the page conveys professionalism.",

@@ -35,9 +35,12 @@
     "male": "Masculino",
     "female": "Femenino",
     "other": "Otro",
-    "preferNotToSay": "Prefiero no decirlo",
     "age": "Edad",
-    "agePlaceholder": "Introduce tu edad"
+    "agePlaceholder": "Introduce tu edad",
+    "handedness": "Lateralidad",
+    "selectHandedness": "Selecciona lateralidad",
+    "rightHanded": "Diestro",
+    "leftHanded": "Zurdo"
   },
   "price": {
     "included": "INCLUIDO",
